@@ -7,7 +7,7 @@ layout: default
 
 ## About
 
-I am a Ph.D. student in mathematics at Brandeis University. I am currently studying automorphic representations. I am luckily co-advised by Professor [Solomon Friedberg](https://sites.google.com/bc.edu/solomon-friedberg/) and Professor [Omer Offen](https://sites.google.com/brandeis.edu/offen/home).
+I am a Ph.D. student in mathematics at Brandeis University. I am currently studying automorphic representations. I am lucky to be co-advised by Professor [Solomon Friedberg](https://sites.google.com/bc.edu/solomon-friedberg/) and Professor [Omer Offen](https://sites.google.com/brandeis.edu/offen/home).
 
 ## Miscellaneous
 
