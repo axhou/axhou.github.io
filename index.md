@@ -22,4 +22,4 @@ During Fall 2023, I tried to learn Daniel Bump's book "Automorphic Forms and Rep
 Here is a [copy](./docs/Exercise.pdf). If you find errors in my file, please let me know. I would really appreciate it!
 
 #### Notes
-During Spring 2023, I typed Professor Bernardi's notes on Algebra II at Brandeis University. Here is a [copy](./docs/Algebra2notes.pdf) I typed after the lectures. For a serious version, please refer to [Bernardi's Website](https://sites.google.com/brandeis.edu/bernardi/teaching)
+During Spring 2023, I typed Professor Bernardi's notes on Algebra II at Brandeis University. Here is a [copy](./docs/Algebra2notes.pdf) I typed after the lectures. For a serious version, please refer to [Bernardi's Website](https://sites.google.com/brandeis.edu/bernardi/teaching).
