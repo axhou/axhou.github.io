@@ -4,20 +4,20 @@ layout: default
 
 Personal Webpage
 
-[Link to another page](./another-page.html).
+
 
 
 ## About
 
 I am a Ph.D. student in mathematics at Brandeis University. I am currently studying automorphic representations.
 
-## Header 2
+## Miscellaneous
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+During Fall 2024, we are organizing a "BC-Brandeis" student reading seminar on Bernstein-Zelevinsky, i.e., the representation theory of p-adic groups. Here is the schedule for it:
+[Link to schedule](./bzf2024.html).
 
-### Header 3
+
+## Header 3
 
 ```js
 // Javascript code with syntax highlighting.
