@@ -4,7 +4,7 @@ layout: default
 
 Personal Webpage
 
-<img src="/assets/images/5721731558742_.pic_hd.jpg" width="600" />
+<img src="/assets/images/5721731558742_.pic_hd.jpg" width="400" />
 
 
 ## About
