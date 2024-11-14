@@ -4,7 +4,7 @@ layout: default
 
 Personal Webpage
 
-![Branching](/assets/images/5721731558742_.pic_hd.jpg)
+![Octocat](/assets/images/5721731558742_.pic_hd.jpg)
 
 
 ## About
