@@ -13,6 +13,6 @@ I am a Ph.D. student in mathematics at Brandeis University. I am currently study
 
 ## Miscellaneous
 
-During Fall 2024, we are organizing a "BC-Brandeis" student reading seminar on Bernstein-Zelevinsky, i.e., the representation theory of p-adic groups. Here is the schedule for it:
+During Fall 2024, we are organizing a "BC-Brandeis" student reading seminar on Bernstein and Zelevinsky's survery paper regarding the representation theory of p-adic groups. Here is the schedule for it:
 [Link to schedule](./bzf2024.html).
 
