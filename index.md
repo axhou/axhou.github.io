@@ -4,7 +4,7 @@ layout: default
 
 Personal Webpage
 
-![Octocat](/assets/images/5721731558742_.pic_hd.jpg)
+<img src="/assets/images/5721731558742_.pic_hd.jpg" width="200" />
 
 
 ## About
