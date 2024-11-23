@@ -31,4 +31,4 @@ Here is a [copy](./docs/Exercise.pdf). If you find any error in my file, please 
 - [Algebra II](./docs/Algebra2notes.pdf), Spring 2023 by Professor Olivier Bernardi. This is a copy I typed after the lectures. For a serious version, please refer to [Bernardi's Website](https://sites.google.com/brandeis.edu/bernardi/teaching).
 
 #### Links
-- A [website](https://tikzcd.yichuanshen.de/) to dram diagrams based on tikzcd. Thank the author for the brilliant work.
+- A [website](https://tikzcd.yichuanshen.de/) to draw diagrams based on tikzcd. Thank the author for the brilliant work.
