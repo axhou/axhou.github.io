@@ -28,7 +28,7 @@ During Fall 2023, I tried to learn Daniel Bump's book "Automorphic Forms and Rep
 Here is a [copy](./docs/Exercise.pdf). If you find any error in my file, please let me know. I would really appreciate it!
 
 #### Notes
-[Algebra II](./docs/Algebra2notes.pdf), Spring 2023 by Professor Olivier Bernardi. This is a copy I typed after the lectures. For a serious version, please refer to [Bernardi's Website](https://sites.google.com/brandeis.edu/bernardi/teaching).
+- [Algebra II](./docs/Algebra2notes.pdf), Spring 2023 by Professor Olivier Bernardi. This is a copy I typed after the lectures. For a serious version, please refer to [Bernardi's Website](https://sites.google.com/brandeis.edu/bernardi/teaching).
 
 #### Links
-A [website](https://tikzcd.yichuanshen.de/) to dram diagrams based on tikzcd. Thank the author for the brilliant work.
+- A [website](https://tikzcd.yichuanshen.de/) to dram diagrams based on tikzcd. Thank the author for the brilliant work.
