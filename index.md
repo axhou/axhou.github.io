@@ -19,8 +19,8 @@ I am a Ph.D. student in mathematics at Brandeis University, currently studying a
 
 ## Activities
 
-#### B-Z Student Reading Seminar
-- During Fall 2024, I am (co-)organizing a ["BC-Brandeis" student reading seminar](./bzf2024.html) on Bernstein and Zelevinsky's survey paper regarding the representation theory of p-adic groups. 
+#### (Co-)organizing
+- Fall 2024: ["BC-Brandeis" student reading seminar on Bernstein-Zelevinsky](./bzf2024.html)
 
 ## Miscellaneous
 
