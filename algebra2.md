@@ -9,4 +9,5 @@
 </script>
 ---
 
-Lecture notes I typed during Spring 2023 for Professor Olivier Bernardi's algebra 2 course at Brandeis University. For a latest and finer version, please refer to
+- Lecture notes I typed during Spring 2023 for Professor Olivier Bernardi's algebra 2 course at Brandeis University. For a latest and finer version, please refer to [Bernardi's Website].
+- [Here is a copy](./docs/Algebra2notes.pdf).
