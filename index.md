@@ -10,7 +10,7 @@ I am a Ph.D. student in mathematics at Brandeis University, currently studying a
 
 ## Teaching
 
-### Instructor of Record
+#### Instructor of Record
 ##### At Brandeis University:
   - Spring 2025: Math 10B - Calculus II
   - Fall 2024: Math 10B - Calculus II
