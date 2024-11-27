@@ -11,7 +11,7 @@ I am a Ph.D. student in mathematics at Brandeis University, currently studying a
 ## Teaching
 
 #### At Brandeis University
-- As Instructor of Record:
+##### As Instructor of Record:
   - Spring 2025: Math 10B - Calculus II
   - Fall 2024: Math 10B - Calculus II
   - Summer 2024: Math 15A - [Linear Algebra](./s2024la.md)
