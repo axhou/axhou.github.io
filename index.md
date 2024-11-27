@@ -27,7 +27,7 @@ I am a Ph.D. student in mathematics at Brandeis University, currently studying a
 #### Notes
 
 - [Bump Exercises](./bumpex.md). 
-- [Algebra II](./docs/Algebra2notes.pdf), typed in Spring 2023 for Professor Olivier Bernardi. For a finer version, please refer to [Bernardi's Website](https://sites.google.com/brandeis.edu/bernardi/teaching).
+- [Algebra II](./algebra2.md).
 
 #### Links
 - [A website](https://tikzcd.yichuanshen.de/) to draw diagrams based on tikzcd. Thank the author for the brilliant work.
