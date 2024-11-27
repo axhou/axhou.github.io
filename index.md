@@ -19,7 +19,7 @@ I am a Ph.D. student in mathematics at Brandeis University, currently studying a
   - Fall 2023: Math 10B - Calculus II
 
 #### Teaching Assistant
- - [List](./talist.md)
+ - [List of TA Experience](./talist.md)
 
 ## Activities
 
