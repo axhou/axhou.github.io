@@ -9,7 +9,6 @@ layout: default
 I am a Ph.D. student in mathematics at Brandeis University, currently studying automorphic representations. I am fortunate to be co-advised by Professor [Solomon Friedberg](https://sites.google.com/bc.edu/solomon-friedberg/) and Professor [Omer Offen](https://sites.google.com/brandeis.edu/offen/home).
 
 ## Teaching
-
 #### Instructor of Record
 - At Brandeis University:
   - Spring 2025: Math 10B - Calculus II
@@ -22,12 +21,10 @@ I am a Ph.D. student in mathematics at Brandeis University, currently studying a
  - [List of TA Experience](./talist.md)
 
 ## Activities
-
 #### (Co-)organizing
 - Fall 2024: ["BC-Brandeis" student seminar on B-Z](./bzf2024.html).
 
 ## Miscellaneous
-
 #### Notes
 
 - [Bump Exercises](./bumpex.md). 
