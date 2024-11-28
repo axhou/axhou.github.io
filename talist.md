@@ -9,7 +9,7 @@
 </script>
 ---
 
-### Teaching Assitant List at Brandeis University:
+### Teaching Assitant Experience at Brandeis University:
  - Fall 2024: Linear Algebra
  - Spring 2024: Linear Algebra
  - Spring 2023: Complex Analysis
