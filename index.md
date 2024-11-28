@@ -18,7 +18,7 @@ I am a Ph.D. student in mathematics at Brandeis University, currently studying a
   - Fall 2023: Math 10B - Calculus II
 
 ## Activities
-#### (Co-)organizing
+#### (Co-)Organizing
 - Fall 2024: ["BC-Brandeis" student seminar on B-Z](./bzf2024.html).
 
 ## Miscellaneous
