@@ -19,7 +19,7 @@ I am a Ph.D. student in mathematics at Brandeis University, currently studying a
 
 ## Activities
 #### (Co-)Organizing
-- Fall 2024: ["BC-Brandeis" student seminar on B-Z](./bzf2024.html).
+- Spring 2025, Fall 2024: ["BC-Brandeis" student seminar on B-Z](./bzf2024.html).
 
 ## Miscellaneous
 #### Notes
