@@ -1,28 +1,50 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="postdoc">
+    <meta name="keywords" content="Math, Bar-Ilan, Brandeis">
+    <meta name="author" content="Yu Xin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <title>Yu Xin</title>
+</head>
+<style>
+    body {
+background: DarkSeaGreen;
+    }
+    hr {
+        border: none;
+        height: 2px;
+        background-color: #000;
+    }
+</style>
+<body>
 
+<h1>Alan Hou</h1>
+<p>
+Contact Info<br>
+Goldsmith 102 <br>
+Department of Mathematics<br>
+Brandeis University<br>
+Waltham, 02452<br>
+Email: hou[at]brandeis[dot]edu
+</p>
 
+<p>
+Here is my <a href="CV_YuXin.pdf">CV</a>.</p>   
 
+<p>
+<h2>Preprints</h2>
+<em>
+</p>
 
-## About
-I am a Ph.D. student in mathematics at Brandeis University, currently studying automorphic representations. I am fortunate to be co-advised by Professor [Solomon Friedberg](https://sites.google.com/bc.edu/solomon-friedberg/) and Professor [Omer Offen](https://sites.google.com/brandeis.edu/offen/home).
+<p>
+<h2>Notes</h2>
+<em>(phone users click <a href="UnrSU3phone.pdf">this</a>)
+</p>
 
-## Teaching
-#### As Instructor of Record
-- At Brandeis University:
-  - Spring 2025: Math 10B - Calculus II
-  - Fall 2024: Math 10B - Calculus II
-  - Summer 2024: Math 15A - [Linear Algebra](./s2024la.md)
-  - Spring 2024: Math 10B - Calculus II
-  - Fall 2023: Math 10B - Calculus II
-
-## Activities
-#### (Co-)Organizing
-- Spring 2025, Fall 2024: ["BC-Brandeis" student seminar on B-Z](./bzf2024.html).
-
-## Miscellaneous
-#### Notes
+<a href="miscellanous.html">Miscellanous</a>
+</html>
 
 - [Bump Exercises](./bumpex.md). 
 - [Algebra II](./algebra2.md).
