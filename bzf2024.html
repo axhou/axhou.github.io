@@ -1,197 +1,138 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VJFCVN1G3F"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BZ + Gelbart Reading Notes</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      background: white;
+      font-family: serif;
+      font-size: 16px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 20pt;
+      margin-bottom: 0.8em;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 2em 0;
+    }
+    table {
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 4px;
+    }
+  </style>
 
-  gtag('config', 'G-VJFCVN1G3F');
-</script>
-<p>
-------------------------------------------------------------------------------------- <br/>
-Reading of Bernstein-Zelevinsky 1976 Survery:<br/>
-Main Reference: [BZ76] I.N. Bernstein and A.V. Zelevinsky, Representation Theory of GL(n, F) where F is a non-Archimedea local field, Russian Math. Survey, 31:3,
-1-68, (1976) <br/>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJFCVN1G3F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-VJFCVN1G3F');
+  </script>
+</head>
 
-Other references: [BZ77]  __________, Induced representations of reductive p-adic groups. I, Ann. Sci. Ecole Norm. Sup., (4) 10, no. 4, 441–472 ´
-(1977). <br/>
+<body>
 
-Meeting time: Mondays 10:00 AM <br/>
-<table style="border-collapse: collapse;">
-  <thead>
-    <tr>
-      <th style="border: 1px solid black; padding: 4px;">Time</th>
-      <th style="border: 1px solid black; padding: 4px;">Sections</th>
-      <th style="border: 1px solid black; padding: 4px;">Speaker</th>
-      <th style="border: 1px solid black; padding: 4px;">Remarks</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">Oct.22</td>
-      <td style="border: 1px solid black; padding: 4px;">Distributions on l-spaces, l-groups</td>
-      <td style="border: 1px solid black; padding: 4px;">Yuichi</td>
-      <td style="border: 1px solid black; padding: 4px;">P1-13</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">Oct.29</td>
-      <td style="border: 1px solid black; padding: 4px;">Representations of l-groups</td>
-      <td style="border: 1px solid black; padding: 4px;">Jimmy</td>
-      <td style="border: 1px solid black; padding: 4px;">P10-16</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">Nov.05</td>
-      <td style="border: 1px solid black; padding: 4px;">l-sheaves</td>
-      <td style="border: 1px solid black; padding: 4px;">Yuzheng</td>
-      <td style="border: 1px solid black; padding: 4px;">P10</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">Nov.12</td>
-      <td style="border: 1px solid black; padding: 4px;">Representations of l-groups, Modules, π<sub>N</sub>, Schur’s Lemma</td>
-      <td style="border: 1px solid black; padding: 4px;">Kewen</td>
-      <td style="border: 1px solid black; padding: 4px;">P19</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">Nov.19</td>
-      <td style="border: 1px solid black; padding: 4px;">The Contragradient representation, tensor product of reps</td>
-      <td style="border: 1px solid black; padding: 4px;">Yuichi</td>
-      <td style="border: 1px solid black; padding: 4px;">P20</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">Nov.26</td>
-      <td style="border: 1px solid black; padding: 4px;">Character, induced rep, Frobenius Reciprocity, Jacquet Functor</td>
-      <td style="border: 1px solid black; padding: 4px;">Alan</td>
-      <td style="border: 1px solid black; padding: 4px;">P24</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">Dec.03</td>
-      <td style="border: 1px solid black; padding: 4px;">Finite (compact) representations</td>
-      <td style="border: 1px solid black; padding: 4px;">Kewen</td>
-      <td style="border: 1px solid black; padding: 4px;">P28</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">Jan.21</td>
-      <td style="border: 1px solid black; padding: 4px;">Induced and quasi-cuspidal representations</td>
-      <td style="border: 1px solid black; padding: 4px;">Kewen</td>
-      <td style="border: 1px solid black; padding: 4px;">Till 3.11</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">Jan.28</td>
-      <td style="border: 1px solid black; padding: 4px;">Partitions, general theory</td>
-      <td style="border: 1px solid black; padding: 4px;">Kewen</td>
-      <td style="border: 1px solid black; padding: 4px;">Section 3</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">Feb.11</td>
-      <td style="border: 1px solid black; padding: 4px;">Functors, Jacquet's theorem</td>
-      <td style="border: 1px solid black; padding: 4px;">Kewen</td>
-      <td style="border: 1px solid black; padding: 4px;">Section 3</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">Feb.17</td>
-      <td style="border: 1px solid black; padding: 4px;">Cuspidal representations</td>
-      <td style="border: 1px solid black; padding: 4px;">Jimmy</td>
-      <td style="border: 1px solid black; padding: 4px;">Section 4</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">Mar.24</td>
-      <td style="border: 1px solid black; padding: 4px;">The Gelfand-Kazhdan theory</td>
-      <td style="border: 1px solid black; padding: 4px;">Alan</td>
-      <td style="border: 1px solid black; padding: 4px;">Chapter 3</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">Apr.7</td>
-      <td style="border: 1px solid black; padding: 4px;">Proofs of Section 5</td>
-      <td style="border: 1px solid black; padding: 4px;">Kewen</td>
-      <td style="border: 1px solid black; padding: 4px;">Chapter 3</td>
-    </tr>
-  </tbody>
-</table>
+  <h2>BZ76 + Gelbart Reading Notes</h2>
 
-  <br/>
-------------------------------------------------------------------------------------- <br/>
-Starting from here, we turned to read some automorphic representation references as well as the local ones:<br/>
-Main Reference: [Ge75] S.Gelbart, Automorphic Forms on Adele Groups, 1975 <br/>
-Other references: [Bu97] D.Bump, Automorphic Forms and Representations, 1997 <br/>
-Meeting time: Mondays 12:01 PM, EST <br/>
+  <p>
+    Reading of Bernstein–Zelevinsky 1976 Survey:<br/><br/>
 
- <table style="border-collapse: collapse;">
-  <thead>
-    <tr>
-      <th style="border: 1px solid black; padding: 4px;">Time</th>
-      <th style="border: 1px solid black; padding: 4px;">Content</th>
-      <th style="border: 1px solid black; padding: 4px;">Speaker</th>
-      <th style="border: 1px solid black; padding: 4px;">Chapter<br/>(of [Ge75])</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">Apr.14</td>
-      <td style="border: 1px solid black; padding: 4px;">The Classical Theory</td>
-      <td style="border: 1px solid black; padding: 4px;">Ziqian, Haoran</td>
-      <td style="border: 1px solid black; padding: 4px;">Chapter 1</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">Apr.21</td>
-      <td style="border: 1px solid black; padding: 4px;">Automorphic Forms and Decomposition</td>
-      <td style="border: 1px solid black; padding: 4px;">Alan</td>
-      <td style="border: 1px solid black; padding: 4px;">Chapter 2</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">Apr.28</td>
-      <td style="border: 1px solid black; padding: 4px;">Automorphic Forms on Adele group of GL(2)</td>
-      <td style="border: 1px solid black; padding: 4px;">Yuzheng</td>
-      <td style="border: 1px solid black; padding: 4px;">Chapter 3</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">May.5</td>
-      <td style="border: 1px solid black; padding: 4px;">Representations of GL(2), local and global</td>
-      <td style="border: 1px solid black; padding: 4px;">Yu</td>
-      <td style="border: 1px solid black; padding: 4px;">Chapter 4</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">May.12</td>
-      <td style="border: 1px solid black; padding: 4px;">Cusp Forms and Representations of GL(2)</td>
-      <td style="border: 1px solid black; padding: 4px;"></td>
-      <td style="border: 1px solid black; padding: 4px;">Chapter 5</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;"><strong>May.19</strong></td>
-      <td style="border: 1px solid black; padding: 4px;"><strong>Hecke Theory for GL(2)</strong></td>
-      <td style="border: 1px solid black; padding: 4px;"></td>
-      <td style="border: 1px solid black; padding: 4px;"><strong>Chapter 6</strong></td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">May.26</td>
-      <td style="border: 1px solid black; padding: 4px;">Construction of Some Automorphic Forms</td>
-      <td style="border: 1px solid black; padding: 4px;">Xinran</td>
-      <td style="border: 1px solid black; padding: 4px;">Chapter 7</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">Jun.2</td>
-      <td style="border: 1px solid black; padding: 4px;">Eisenstein Series and the Continuous Spectrum</td>
-      <td style="border: 1px solid black; padding: 4px;">Alan</td>
-      <td style="border: 1px solid black; padding: 4px;">Chapter 8</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;"><strong>Jun.9</strong></td>
-      <td style="border: 1px solid black; padding: 4px;"><strong>Trace Formula for GL(2)</strong></td>
-      <td style="border: 1px solid black; padding: 4px;"></td>
-      <td style="border: 1px solid black; padding: 4px;"><strong>Chapter 9</strong></td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 4px;">Jun.16</td>
-      <td style="border: 1px solid black; padding: 4px;">Automorphic Forms on Quaternion Algebra</td>
-      <td style="border: 1px solid black; padding: 4px;">Haoran</td>
-      <td style="border: 1px solid black; padding: 4px;">Chapter 10</td>
-    </tr>
-  </tbody>
-</table>
+    Main Reference: [BZ76] I. N. Bernstein and A. V. Zelevinsky, 
+    <i>Representation theory of GL(n, F), where F is a non-Archimedean local field</i>, 
+    <b>Russian Mathematical Surveys</b>, <b>31</b> (1976), no. 3, 1–68.<br/><br/>
 
-<p><br/><strong>*</strong> Rows in <strong>bold</strong> are expected to be covered in more than one meeting.</p>
+    Other Reference: [BZ77] I. N. Bernstein and A. V. Zelevinsky, 
+    <i>Induced representations of reductive p-adic groups. I</i>, 
+    <b>Annales Scientifiques de l'École Normale Supérieure</b>, 
+    (4) <b>10</b> (1977), no. 4, 441–472.<br/><br/>
 
-  
-<br/>
-If you are interested in speaking, please email me!<br/>
+    Meeting time: Mondays 10:00 AM
+  </p>
 
-<a href="./">[back]<a>
+  <!-- First table -->
+  <table>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Sections</th>
+        <th>Speaker</th>
+        <th>Remarks</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Oct.22</td><td>Distributions on l-spaces, l-groups</td><td>Yuichi</td><td>P1-13</td></tr>
+      <tr><td>Oct.29</td><td>Representations of l-groups</td><td>Jimmy</td><td>P10-16</td></tr>
+      <tr><td>Nov.05</td><td>l-sheaves</td><td>Yuzheng</td><td>P10</td></tr>
+      <tr><td>Nov.12</td><td>Representations of l-groups, Modules, π<sub>N</sub>, Schur’s Lemma</td><td>Kewen</td><td>P19</td></tr>
+      <tr><td>Nov.19</td><td>The Contragradient representation, tensor product of reps</td><td>Yuichi</td><td>P20</td></tr>
+      <tr><td>Nov.26</td><td>Character, induced rep, Frobenius Reciprocity, Jacquet Functor</td><td>Alan</td><td>P24</td></tr>
+      <tr><td>Dec.03</td><td>Finite (compact) representations</td><td>Kewen</td><td>P28</td></tr>
+      <tr><td>Jan.21</td><td>Induced and quasi-cuspidal representations</td><td>Kewen</td><td>Till 3.11</td></tr>
+      <tr><td>Jan.28</td><td>Partitions, general theory</td><td>Kewen</td><td>Section 3</td></tr>
+      <tr><td>Feb.11</td><td>Functors, Jacquet's theorem</td><td>Kewen</td><td>Section 3</td></tr>
+      <tr><td>Feb.17</td><td>Cuspidal representations</td><td>Jimmy</td><td>Section 4</td></tr>
+      <tr><td>Mar.24</td><td>The Gelfand-Kazhdan theory</td><td>Alan</td><td>Chapter 3</td></tr>
+      <tr><td>Apr.7</td><td>Proofs of Section 5</td><td>Kewen</td><td>Chapter 3</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Light horizontal separator -->
+  <hr>
+
+  <p>
+    Starting from here, we turned to read some automorphic representation references as well as the local ones:<br/><br/>
+
+    Main Reference: [Ge75] S. Gelbart, 
+    <i>Automorphic Forms on Adele Groups</i>, 
+    Princeton University Press, 1975.<br/>
+
+    Other Reference: [Bu97] D. Bump, 
+    <i>Automorphic Forms and Representations</i>, 
+    Cambridge Studies in Advanced Mathematics, vol. 55, 
+    Cambridge University Press, 1997.<br/><br/>
+
+    Meeting time: Mondays 12:01 PM EST
+  </p>
+
+  <!-- Second table -->
+  <table>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Content</th>
+        <th>Speaker</th>
+        <th>Chapter<br/>(of [Ge75])</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Apr.14</td><td>The Classical Theory</td><td>Ziqian, Haoran</td><td>Chapter 1</td></tr>
+      <tr><td>Apr.21</td><td>Automorphic Forms and Decomposition</td><td>Alan</td><td>Chapter 2</td></tr>
+      <tr><td>Apr.28</td><td>Automorphic Forms on Adele group of GL(2)</td><td>Yuzheng</td><td>Chapter 3</td></tr>
+      <tr><td>May.5</td><td>Representations of GL(2), local and global</td><td>Yu</td><td>Chapter 4</td></tr>
+      <tr><td>May.12</td><td>Cusp Forms and Representations of GL(2)</td><td></td><td>Chapter 5</td></tr>
+      <tr><td><strong>May.19</strong></td><td><strong>Hecke Theory for GL(2)</strong></td><td></td><td><strong>Chapter 6</strong></td></tr>
+      <tr><td>May.26</td><td>Construction of Some Automorphic Forms</td><td>Xinran</td><td>Chapter 7</td></tr>
+      <tr><td>Jun.2</td><td>Eisenstein Series and the Continuous Spectrum</td><td>Alan</td><td>Chapter 8</td></tr>
+      <tr><td><strong>Jun.9</strong></td><td><strong>Trace Formula for GL(2)</strong></td><td></td><td><strong>Chapter 9</strong></td></tr>
+      <tr><td>Jun.16</td><td>Automorphic Forms on Quaternion Algebra</td><td>Haoran</td><td>Chapter 10</td></tr>
+    </tbody>
+  </table>
+
+  <p><br/><strong>*</strong> Rows in <strong>bold</strong> are expected to be covered in more than one meeting.</p>
+
+  <p>
+    If you are interested in speaking, please email me!<br/><br/>
+    <a href="./">[back]</a>
+  </p>
+
+</body>
+</html>
