@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Representation Theory of p-adic Groups</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      background: white;
+      font-family: serif;
+      font-size: 16px;
+    }
+    h3, h4 {
+      text-align: center;
+      font-weight: normal;
+      font-size: 16pt;
+      margin-bottom: 1.2em;
+    }
+    table {
+      border-collapse: collapse;
+      margin: 0 auto;
+      margin-top: 1em;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <h3>Representation of p-adic groups</h3>
+
+  <p style="text-align: center;">
+    Main Reference: [Cas] W.Casselman, <i>INTRODUCTION TO THE THEORY OF ADMISSIBLE
+REPRESENTATIONS OF p-ADIC REDUCTIVE GROUPS</i>,<br/>
+    unpublished notes,  1 May 1995.<br/>
+    Other Reference: [Bu97] D. Bump, <i>Automorphic Forms and Representations</i>,<br/>
+    Cambridge Studies in Advanced Mathematics, vol. 55, Cambridge University Press, 1997.<br/><br/>
+    Meeting time: Tuesdays 13:30 PM EST
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Content</th>
+        <th>Speaker</th>
+        <th>Chapter<br/>(of [Cas])</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td></td><td></td><td></td><td>Chapter 1</td></tr>
+      <tr><td></td><td></td><td>Alan</td><td>Chapter 2</td></tr>
+      <tr><td></td><td></td><td>Haoran.L, Yuzheng</td><td>Chapter 3</td></tr>
+      <tr><td></td><td></td><td>Yu</td><td>Chapter 4</td></tr>
+      <tr><td></td><td></td><td>Yuzheng</td><td>Chapter 5</td></tr>
+      <tr><td><strong></strong></td><td><strong></strong></td><td>Xinran</td><td><strong>Chapter 6</strong></td></tr>
+      <tr><td><strong></strong></td><td><strong></strong></td><td>Haoran.L</td><td><strong>Chapter 6</strong></td></tr>
+      <tr><td></td><td></td><td>Xinran</td><td>Chapter 7</td></tr>
+      <tr><td>Sep.12, Sep.16</td><td></td><td>Alan</td><td>Chapter 8</td></tr>
+      <tr><td><strong>TBA</strong></td><td><strong></strong></td><td></td><td><strong>Chapter 9</strong></td></tr>
+      <tr><td>TBA</td><td></td><td>Haoran.L</td><td>Chapter 10</td></tr>
+    </tbody>
+  </table>
+
+  <p style="text-align: center; margin-top: 1.5em;">
+    <strong>*</strong> Rows in <strong>bold</strong> are expected to be covered in more than one meeting.<br/><br/>
+    If you are interested in speaking, please email me!
+  </p>
+
+</body>
+</html>
