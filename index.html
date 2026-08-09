@@ -17,17 +17,26 @@
   <title>Alan Hou</title>
 
   <style>
-   .header {
+.header {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 50px;
 }
 
-.profile-photo {
-  width: 260px;
-  height: auto;
-  object-fit: contain;
+.contact {
   flex-shrink: 0;
+}
+
+.photo-wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+.profile-photo {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  display: block;
 }
     body {
       background: white;
@@ -66,23 +75,25 @@
 
 <body>
 
-  <div class="header">
+<div class="header">
 
-    <div>
-      <h1>Alan Hou</h1>
+  <div class="contact">
+    <h1>Alan Hou</h1>
 
-      <p>
-        Goldsmith Building 114<br>
-        Department of Mathematics<br>
-        Brandeis University<br>
-        Waltham, MA 02453, USA<br>
-        Email: hou[at]brandeis[dot]edu
-      </p>
-    </div>
-
-    <img src="./alan.jpg" alt="Alan Hou" class="profile-photo">
-
+    <p>
+      Goldsmith Building 114<br>
+      Department of Mathematics<br>
+      Brandeis University<br>
+      Waltham, MA 02453, USA<br>
+      Email: hou[at]brandeis[dot]edu
+    </p>
   </div>
+
+  <div class="photo-wrapper">
+    <img src="./alan.jpg" alt="Alan Hou" class="profile-photo">
+  </div>
+
+</div>
   <h2>About</h2>
 
   <p>
