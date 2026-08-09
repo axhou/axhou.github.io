@@ -37,6 +37,20 @@
   width: auto;
   object-fit: cover;
 }
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .profile-photo {
+    width: 90%;
+    max-width: 380px;
+    height: auto;
+    object-fit: contain;
+  }
+}
     body {
       background: white;
       font-family: serif;
