@@ -17,6 +17,42 @@
   <title>Alan Hou</title>
 
   <style>
+    .research-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 40px;
+  margin: 0.25em 0 1.5em;
+}
+
+.research-area {
+  border-top: 1px solid #999;
+  padding-top: 0.75em;
+}
+
+.research-area h3 {
+  font-size: 16px;
+  margin: 0 0 0.65em;
+}
+
+.research-area p {
+  margin-bottom: 0.8em;
+}
+
+.research-area ul {
+  margin-bottom: 0;
+}
+
+.research-placeholder {
+  color: #666;
+  font-style: italic;
+}
+
+@media (max-width: 700px) {
+  .research-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
 .header {
   display: flex;
   align-items: stretch;
@@ -123,7 +159,44 @@
       Omer Offen.
     </a>
   </p>
+<h2>Research</h2>
 
+<div class="research-grid">
+
+  <section class="research-area">
+    <h3>Mathematics</h3>
+
+    <p>
+      My research interests include automorphic representations,
+      Eisenstein series, Fourier coefficients, and the representation
+      theory of reductive groups over local and global fields.
+    </p>
+
+    <ul>
+      <li>
+        <em>
+          Fourier coefficients of the degenerate Eisenstein series
+          on symplectic groups
+        </em>,
+        with Yusheng Lei. Preprint.
+      </li>
+    </ul>
+  </section>
+
+  <section class="research-area">
+    <h3>Applied Machine Learning and Quant Finance</h3>
+
+    <p>
+      This section is reserved for work and projects related to
+      machine learning.
+    </p>
+
+    <p class="research-placeholder">
+      Projects and notes will be added here.
+    </p>
+  </section>
+
+</div>
 
   <h2>Teaching and Mentoring</h2>
 
