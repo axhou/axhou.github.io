@@ -3,90 +3,52 @@
 
 <head>
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJFCVN1G3F"></script>
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-VJFCVN1G3F"
+  ></script>
+
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-VJFCVN1G3F');
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag("js", new Date());
+    gtag("config", "G-VJFCVN1G3F");
   </script>
 
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
   <title>Alan Hou</title>
 
   <style>
-    .research-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 40px;
-  margin: 0.25em 0 1.5em;
-}
+    .header {
+      display: flex;
+      align-items: stretch;
+      gap: 50px;
+    }
 
-.research-area {
-  border-top: 1px solid #999;
-  padding-top: 0.75em;
-}
+    .contact {
+      flex-shrink: 0;
+    }
 
-.research-area h3 {
-  font-size: 16px;
-  margin: 0 0 0.65em;
-}
+    .photo-wrapper {
+      display: flex;
+      align-items: stretch;
+    }
 
-.research-area p {
-  margin-bottom: 0.8em;
-}
+    .profile-photo {
+      height: 250px;
+      width: auto;
+      object-fit: cover;
+    }
 
-.research-area ul {
-  margin-bottom: 0;
-}
-
-.research-placeholder {
-  color: #666;
-  font-style: italic;
-}
-
-@media (max-width: 700px) {
-  .research-grid {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-}
-.header {
-  display: flex;
-  align-items: stretch;
-  gap: 50px;
-}
-
-.contact {
-  flex-shrink: 0;
-}
-
-.photo-wrapper {
-  display: flex;
-  align-items: stretch;
-}
-
-.profile-photo {
-  height: 250px;
-  width: auto;
-  object-fit: cover;
-}
-@media (max-width: 700px) {
-  .header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-  }
-
-  .profile-photo {
-    width: 90%;
-    max-width: 380px;
-    height: auto;
-    object-fit: contain;
-  }
-}
     body {
       background: white;
       font-family: serif;
@@ -119,90 +81,96 @@
     a {
       color: #0000cc;
     }
+
+    @media (max-width: 700px) {
+      .header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+      }
+
+      .profile-photo {
+        width: 90%;
+        max-width: 380px;
+        height: auto;
+        object-fit: contain;
+      }
+    }
   </style>
 </head>
 
 <body>
 
-<div class="header">
+  <div class="header">
 
-  <div class="contact">
-    <h1>Alan Hou</h1>
+    <div class="contact">
+      <h1>Alan Hou</h1>
 
-    <p>
-      Goldsmith Building 114<br>
-      Department of Mathematics<br>
-      Brandeis University<br>
-      Waltham, MA 02453, USA<br>
-      Email: hou[at]brandeis[dot]edu
-    </p>
+      <p>
+        Goldsmith Building 114<br>
+        Department of Mathematics<br>
+        Brandeis University<br>
+        Waltham, MA 02453, USA<br>
+        Email: hou[at]brandeis[dot]edu
+      </p>
+    </div>
+
+    <div class="photo-wrapper">
+      <img
+        src="./alan.jpg"
+        alt="Alan Hou"
+        class="profile-photo"
+      >
+    </div>
+
   </div>
 
-  <div class="photo-wrapper">
-    <img src="./alan.jpg" alt="Alan Hou" class="profile-photo">
-  </div>
 
-</div>
   <h2>About</h2>
 
   <p>
     I am a Ph.D. candidate in mathematics at Brandeis University,
     currently studying automorphic representations.
-    I am fortunate to be co-advised by
-    Professor
+    I am fortunate to be co-advised by Professor
     <a href="https://sites.google.com/bc.edu/solomon-friedberg/">
       Solomon Friedberg
     </a>
-    and
-    Professor
+    and Professor
     <a href="https://sites.google.com/brandeis.edu/offen/home">
       Omer Offen.
     </a>
   </p>
-<h2>Research</h2>
 
-<div class="research-grid">
 
-  <section class="research-area">
-    <h3>Mathematics</h3>
+  <h2>Research</h2>
 
-    <p>
-      My research interests include automorphic representations,
-      Eisenstein series, Fourier coefficients, and the representation
-      theory of reductive groups over local and global fields.
-    </p>
+  <p><strong>Mathematics</strong></p>
 
-    <ul>
-      <li>
-        <em>
-          Fourier coefficients of the degenerate Eisenstein series
-          on symplectic groups
-        </em>,
-        with Yusheng Lei. Preprint.
-      </li>
-    </ul>
-  </section>
+  <ul>
+    <li>
+      Fourier coefficients of the degenerate Eisenstein series
+      on symplectic groups, with Yusheng Lei. Submitted.
+    </li>
+  </ul>
 
-  <section class="research-area">
-    <h3>Applied Machine Learning and Quant Finance</h3>
+  <p><strong>Machine Learning</strong></p>
 
-    <p>
-      This section is reserved for work and projects related to
-      machine learning.
-    </p>
+  <ul>
+<li>
+  A Novel Loss Function for Deep Learning Based Daily
+  Stock Trading System, with Ruoyu Guo and Haochen Qiu.
+  [<a href="https://arxiv.org/abs/2502.17493">arXiv</a>]
+</li>
+  </ul>
 
-    <p class="research-placeholder">
-      Projects and notes will be added here.
-    </p>
-  </section>
-
-</div>
 
   <h2>Teaching and Mentoring</h2>
 
   <p>
     Here are my official
-    <a href="./teaching.html">teaching evaluations, student feedback and mentoring experience details</a>.
+    <a href="./teaching.html">
+      teaching evaluations, student feedback and mentoring experience details
+    </a>.
   </p>
 
   <ul>
@@ -210,6 +178,7 @@
       Summer 2026:
       Prep Camp for incoming PhD students - Analysis and Algebra
     </li>
+
     <li>
       Summer 2026:
       Math 15A -
@@ -247,7 +216,6 @@
   <h2>Activities</h2>
 
   <ul>
-
     <li>
       Spring 2026:
       I am mentoring a Guided Reading Program on
@@ -275,7 +243,6 @@
       <a href="./bzf2024.html">student seminar</a>
       on the Bernstein-Zelevinsky theory and local representations of GL(n).
     </li>
-
   </ul>
 
 
@@ -295,7 +262,6 @@
   <h2>Links</h2>
 
   <ul>
-
     <li>
       <a href="https://tikzcd.yichuanshen.de/">
         A website
@@ -310,7 +276,6 @@
       </a>,
       as I have been enjoying cooking for a while.
     </li>
-
   </ul>
 
 </body>
