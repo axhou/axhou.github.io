@@ -33,7 +33,22 @@
       align-items: stretch;
       gap: 50px;
     }
+.profile-figure {
+  margin: 0;
+}
 
+.profile-photo {
+  display: block;
+  height: 265px;
+  width: auto;
+}
+
+.profile-figure figcaption {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
     .contact {
       flex-shrink: 0;
     }
@@ -116,11 +131,10 @@
     </div>
 
     <div class="photo-wrapper">
-      <img
-        src="./alan.jpg"
-        alt="Alan Hou"
-        class="profile-photo"
-      >
+      <figure class="profile-figure">
+  <img src="./alan.jpg" alt="Alan Hou" class="profile-photo">
+  <figcaption>Photo taken at Hard Rock Cafe, Key West, FL</figcaption>
+</figure>
     </div>
 
   </div>
