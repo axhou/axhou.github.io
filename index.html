@@ -4,18 +4,31 @@
 <head>
 
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJFCVN1G3F"></script>
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-VJFCVN1G3F"
+  ></script>
+
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-VJFCVN1G3F');
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag("js", new Date());
+    gtag("config", "G-VJFCVN1G3F");
   </script>
 
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
   <title>Alan Hou</title>
+
 
   <style>
 
@@ -27,11 +40,13 @@
       margin: 15px 20px;
     }
 
+
     h1 {
       font-size: 32px;
       margin-top: 0;
       margin-bottom: 0.5em;
     }
+
 
     h2 {
       font-size: 24px;
@@ -39,63 +54,24 @@
       margin-bottom: 0.5em;
     }
 
+
     p {
       margin: 0 0 1.2em 0;
     }
+
 
     ul {
       margin: 0 0 1.2em 1.2em;
       padding-left: 1em;
     }
 
-    li {
-      margin-bottom: 0.15em;
-    }
 
     a {
       color: #0000cc;
     }
 
 
-    /* -------------------------
-       Header / Profile photo
-       ------------------------- */
-
-    .header {
-      display: flex;
-      align-items: flex-start;
-      gap: 50px;
-    }
-
-    .contact {
-      flex-shrink: 0;
-    }
-
-    .profile-figure {
-      margin: 0;
-      width: max-content;
-      max-width: 100%;
-    }
-
-    .profile-photo {
-      display: block;
-      height: 265px;
-      width: auto;
-      object-fit: contain;
-    }
-
-    .profile-figure figcaption {
-      margin-top: 4px;
-      font-size: 12px;
-      font-weight: normal;
-      color: #666;
-      text-align: center;
-    }
-
-
-    /* -------------------------
-       Publications
-       ------------------------- */
+    /* Publication categories */
 
     .publication-category {
       font-size: 14px;
@@ -107,18 +83,52 @@
     }
 
 
-    /* -------------------------
-       Mentoring
-       ------------------------- */
+    /* Header */
 
-    .mentoring-list li {
-      margin-bottom: 1em;
+    .header {
+      display: flex;
+      align-items: flex-start;
+      gap: 50px;
     }
 
 
-    /* -------------------------
-       Mobile layout
-       ------------------------- */
+    .contact {
+      flex-shrink: 0;
+    }
+
+
+    /* Profile photo */
+
+    .photo-wrapper {
+      display: flex;
+      align-items: flex-start;
+    }
+
+
+    .profile-figure {
+      margin: 0;
+    }
+
+
+    .profile-photo {
+      display: block;
+      height: 250px;
+      width: auto;
+      object-fit: cover;
+    }
+
+
+    .profile-figure figcaption {
+      margin-top: 4px;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: normal;
+      color: #666;
+      text-align: center;
+    }
+
+
+    /* Mobile */
 
     @media (max-width: 700px) {
 
@@ -126,27 +136,19 @@
         margin: 15px 18px;
       }
 
+
       .header {
         flex-direction: column;
         align-items: flex-start;
         gap: 20px;
       }
 
-      .profile-figure {
-        width: 100%;
-      }
 
       .profile-photo {
         width: 90%;
         max-width: 380px;
         height: auto;
         object-fit: contain;
-      }
-
-      .profile-figure figcaption {
-        width: 90%;
-        max-width: 380px;
-        text-align: center;
       }
 
     }
@@ -158,10 +160,6 @@
 
 <body>
 
-
-  <!-- =========================
-       Header
-       ========================= -->
 
   <div class="header">
 
@@ -180,27 +178,27 @@
     </div>
 
 
-    <figure class="profile-figure">
+    <div class="photo-wrapper">
 
-      <img
-        src="./alan.jpg"
-        alt="Alan Hou"
-        class="profile-photo"
-      >
+      <figure class="profile-figure">
 
-      <figcaption>
-        Photo taken at Hard Rock Cafe, Key West, FL
-      </figcaption>
+        <img
+          src="./alan.jpg"
+          alt="Alan Hou"
+          class="profile-photo"
+        >
 
-    </figure>
+        <figcaption>
+          Photo taken at Hard Rock Cafe, Key West, FL
+        </figcaption>
+
+      </figure>
+
+    </div>
 
   </div>
 
 
-
-  <!-- =========================
-       About
-       ========================= -->
 
   <h2>About</h2>
 
@@ -213,15 +211,11 @@
     </a>
     and Professor
     <a href="https://sites.google.com/brandeis.edu/offen/home">
-      Omer Offen
-    </a>.
+      Omer Offen.
+    </a>
   </p>
 
 
-
-  <!-- =========================
-       Preprints and Publications
-       ========================= -->
 
   <h2>Preprints and Publications</h2>
 
@@ -233,8 +227,8 @@
   <ul>
 
     <li>
-      Fourier coefficients of the degenerate Eisenstein series
-      on symplectic groups, with Yusheng Lei. Submitted.
+      Fourier Coefficients of the Degenerate Eisenstein Series
+      on Symplectic Groups, with Yusheng Lei. Submitted.
       [<a href="https://arxiv.org/abs/2608.24719">arXiv</a>]
     </li>
 
@@ -249,8 +243,7 @@
 
     <li>
       A Novel Loss Function for Deep Learning Based Daily
-      Stock Trading System, with Ruoyu Guo and Haochen Qiu.
-      Submitted.
+      Stock Trading System, with Ruoyu Guo and Haochen Qiu. Submitted.
       [<a href="https://arxiv.org/abs/2502.17493">arXiv</a>]
     </li>
 
@@ -258,17 +251,13 @@
 
 
 
-  <!-- =========================
-       Teaching and Mentoring
-       ========================= -->
-
   <h2>Teaching and Mentoring</h2>
 
   <p>
-    Here are my official
+    Here are my
     <a href="./teaching.html">
-      teaching evaluations, student feedback, and mentoring experience details
-    </a>.
+      official teaching evaluations, student feedback and mentoring experience details.
+    </a>
   </p>
 
 
@@ -276,8 +265,7 @@
 
     <li>
       Summer 2026:
-      Prep Camp for incoming Ph.D. students -
-      Analysis and Algebra
+      Prep Camp for incoming PhD students - Analysis and Algebra
     </li>
 
     <li>
@@ -316,62 +304,25 @@
 
 
 
-  <!-- =========================
-       Student Mentoring
-       ========================= -->
-
-  <p class="publication-category">
-    Student Mentoring
-  </p>
-
-  <ul class="mentoring-list">
-
-    <li>
-      Summer 2026<br>
-
-      <strong>
-        <a href="https://mathcamp.simis.cn/courses/Comb.html">
-          Yau International Mathematical Summer Camp
-        </a>
-      </strong><br>
-
-      Teaching Assistant and project mentor for Combinatorics,
-      taught by Prof. Paul Horn. I worked with students on
-      mathematical problem solving and mentored student projects,
-      providing guidance on project development and mathematical exposition.
-    </li>
-
-
-    <li>
-      Spring 2026<br>
-
-      <strong>
-        Guided Reading Program, Brandeis University
-      </strong><br>
-
-      Mentor for a Guided Reading Program on the representation theory
-      of finite groups -
-      <a href="./grp2026spring.html">schedule and materials</a>.
-    </li>
-
-  </ul>
-
-
-
-  <!-- =========================
-       Activities
-       ========================= -->
-
-  <h2>Activities</h2>
+  <h2>Activities and Service</h2>
 
   <ul>
 
     <li>
       Fall 2026:
-      Co-organizer of the
+      I am co-organizing
       <a href="./everytopic.html">
         Brandeis Everytopic Seminar
       </a>.
+    </li>
+
+    <li>
+      Spring 2026:
+      I am mentoring a
+      <a href="./grp2026spring.html">
+        Guided Reading Program
+      </a>
+      on representation theory of finite groups.
     </li>
 
     <li>
@@ -385,7 +336,7 @@
 
     <li>
       Spring 2025:
-      I organized a
+      I am organizing a
       <a href="./gel2025.html">
         student seminar
       </a>
@@ -404,10 +355,6 @@
   </ul>
 
 
-
-  <!-- =========================
-       Notes
-       ========================= -->
 
   <h2>Notes</h2>
 
@@ -429,10 +376,6 @@
 
 
 
-  <!-- =========================
-       Links
-       ========================= -->
-
   <h2>Links</h2>
 
   <ul>
@@ -442,7 +385,7 @@
         A website
       </a>
       to draw diagrams based on tikzcd.
-      Thanks to the author for the brilliant work.
+      Thank the author for the brilliant work.
     </li>
 
     <li>
