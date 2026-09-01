@@ -6,8 +6,8 @@
   <!-- Google tag (gtag.js) -->
   <script
     async
-    src="https://www.googletagmanager.com/gtag/js?id=G-VJFCVN1G3F"
-  ></script>
+    src="https://www.googletagmanager.com/gtag/js?id=G-VJFCVN1G3F">
+  </script>
 
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -36,50 +36,11 @@
       background: white;
       font-family: serif;
       font-size: 16px;
-      line-height: normal;
       margin: 8px;
     }
 
-
-    h1 {
-      font-size: 32px;
-      margin-top: 0;
-      margin-bottom: 0.5em;
-    }
-
-
-    h2 {
-      font-size: 24px;
-      margin-top: 1.5em;
-      margin-bottom: 0.5em;
-    }
-
-
-    p {
-      margin: 0 0 1.2em 0;
-    }
-
-
-    ul {
-      margin: 0 0 1.2em 1.2em;
-      padding-left: 1em;
-    }
-
-
     a {
       color: #0000cc;
-    }
-
-
-    /* Publication categories */
-
-    .publication-category {
-      font-size: 14px;
-      font-style: normal;
-      font-weight: normal;
-      color: #666;
-      margin-top: 1.2em;
-      margin-bottom: 0.3em;
     }
 
 
@@ -88,9 +49,8 @@
     .header {
       display: flex;
       align-items: flex-start;
-      gap: 50px;
+      gap: 40px;
     }
-
 
     .contact {
       flex-shrink: 0;
@@ -99,24 +59,15 @@
 
     /* Profile photo */
 
-    .photo-wrapper {
-      display: flex;
-      align-items: flex-start;
-    }
-
-
     .profile-figure {
       margin: 0;
     }
 
-
     .profile-photo {
       display: block;
-      height: 250px;
+      height: 260px;
       width: auto;
-      object-fit: cover;
     }
-
 
     .profile-figure figcaption {
       margin-top: 4px;
@@ -128,27 +79,31 @@
     }
 
 
+    /* Publication subcategories */
+
+    .publication-category {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: normal;
+      color: #666;
+      margin-bottom: 0.2em;
+    }
+
+
     /* Mobile */
 
     @media (max-width: 700px) {
 
-      body {
-        margin: 8px;
-      }
-
-
       .header {
         flex-direction: column;
         align-items: flex-start;
-        gap: 20px;
+        gap: 15px;
       }
-
 
       .profile-photo {
         width: 90%;
-        max-width: 380px;
+        max-width: 400px;
         height: auto;
-        object-fit: contain;
       }
 
     }
@@ -178,222 +133,260 @@
     </div>
 
 
-    <div class="photo-wrapper">
+    <figure class="profile-figure">
 
-      <figure class="profile-figure">
+      <img
+        src="./alan.jpg"
+        alt="Alan Hou"
+        class="profile-photo"
+      >
 
-        <img
-          src="./alan.jpg"
-          alt="Alan Hou"
-          class="profile-photo"
-        >
+      <figcaption>
+        Photo taken at Hard Rock Cafe, Key West, FL
+      </figcaption>
 
-        <figcaption>
-          Photo taken at Hard Rock Cafe, Key West, FL
-        </figcaption>
-
-      </figure>
-
-    </div>
+    </figure>
 
   </div>
 
 
 
-  <h2>About</h2>
-
-  <p>
-    I am a Ph.D. candidate in mathematics at Brandeis University,
-    currently studying automorphic representations.
-    I am fortunate to be co-advised by Professor
-    <a href="https://sites.google.com/bc.edu/solomon-friedberg/">
-      Solomon Friedberg
-    </a>
-    and Professor
-    <a href="https://sites.google.com/brandeis.edu/offen/home">
-      Omer Offen.
-    </a>
-  </p>
-
-
-
-  <h2>Preprints and Publications</h2>
-
-
-  <p class="publication-category">
-    Mathematics
-  </p>
-
   <ul>
 
-    <li>
-      Fourier Coefficients of the Degenerate Eisenstein Series
-      on Symplectic Groups, with Yusheng Lei. Submitted.
-      [<a href="https://arxiv.org/abs/2608.24719">arXiv</a>]
-    </li>
-
-  </ul>
-
-
-  <p class="publication-category">
-    Machine Learning
-  </p>
-
-  <ul>
+    <!-- About -->
 
     <li>
-      A Novel Loss Function for Deep Learning Based Daily
-      Stock Trading System, with Ruoyu Guo and Haochen Qiu. Submitted.
-      [<a href="https://arxiv.org/abs/2502.17493">arXiv</a>]
+
+      <strong>About</strong>
+
+      <p>
+        I am a Ph.D. candidate in mathematics at Brandeis University,
+        currently studying automorphic representations.
+        I am fortunate to be co-advised by Professor
+        <a href="https://sites.google.com/bc.edu/solomon-friedberg/">
+          Solomon Friedberg
+        </a>
+        and Professor
+        <a href="https://sites.google.com/brandeis.edu/offen/home">
+          Omer Offen
+        </a>.
+      </p>
+
     </li>
 
-  </ul>
 
 
-
-  <h2>Teaching and Mentoring</h2>
-
-  <p>
-    Here are my
-    <a href="./teaching.html">
-      official teaching evaluations, student feedback and mentoring experience details.
-    </a>
-  </p>
-
-
-  <ul>
+    <!-- Publications -->
 
     <li>
-      Summer 2026:
-      Prep Camp for incoming PhD students - Analysis and Algebra
+
+      <strong>Preprints and Publications</strong>
+
+
+      <p class="publication-category">
+        Mathematics
+      </p>
+
+      <ul>
+
+        <li>
+          Fourier Coefficients of the Degenerate Eisenstein Series
+          on Symplectic Groups, with Yusheng Lei. Submitted.
+          [<a href="https://arxiv.org/abs/2608.24719">arXiv</a>]
+        </li>
+
+      </ul>
+
+
+      <p class="publication-category">
+        Machine Learning
+      </p>
+
+      <ul>
+
+        <li>
+          A Novel Loss Function for Deep Learning Based Daily
+          Stock Trading System, with Ruoyu Guo and Haochen Qiu.
+          Submitted.
+          [<a href="https://arxiv.org/abs/2502.17493">arXiv</a>]
+        </li>
+
+      </ul>
+
     </li>
+
+
+
+    <!-- Teaching -->
 
     <li>
-      Summer 2026:
-      Math 15A -
-      <a href="./s2026la.html">Linear Algebra</a>
+
+      <strong>Teaching and Mentoring</strong>
+
+      <p>
+        Here are my
+        <a href="./teaching.html">
+          official teaching evaluations, student feedback and mentoring experience details.
+        </a>
+      </p>
+
+
+      <ul>
+
+        <li>
+          Summer 2026:
+          Prep Camp for incoming PhD students - Analysis and Algebra
+        </li>
+
+        <li>
+          Summer 2026:
+          Math 15A -
+          <a href="./s2026la.html">Linear Algebra</a>
+        </li>
+
+        <li>
+          Spring 2025:
+          Math 10B - Calculus II
+        </li>
+
+        <li>
+          Fall 2024:
+          Math 10B - Calculus II
+        </li>
+
+        <li>
+          Summer 2024:
+          Math 15A -
+          <a href="./s2024la.html">Linear Algebra</a>
+        </li>
+
+        <li>
+          Spring 2024:
+          Math 10B - Calculus II
+        </li>
+
+        <li>
+          Fall 2023:
+          Math 10B - Calculus II
+        </li>
+
+      </ul>
+
     </li>
+
+
+
+    <!-- Activities -->
 
     <li>
-      Spring 2025:
-      Math 10B - Calculus II
+
+      <strong>Activities and Service</strong>
+
+      <ul>
+
+        <li>
+          Fall 2026:
+          I am co-organizing
+          <a href="./everytopic.html">
+            Brandeis Everytopic Seminar
+          </a>.
+        </li>
+
+        <li>
+          Spring 2026:
+          I am mentoring a
+          <a href="./grp2026spring.html">
+            Guided Reading Program
+          </a>
+          on representation theory of finite groups.
+        </li>
+
+        <li>
+          Fall 2025:
+          I am organizing a
+          <a href="./25caspadic.html">
+            student seminar
+          </a>
+          on Casselman's notes on p-adic group representations.
+        </li>
+
+        <li>
+          Spring 2025:
+          I am organizing a
+          <a href="./gel2025.html">
+            student seminar
+          </a>
+          on Gelbart's book and related topics in automorphic representations.
+        </li>
+
+        <li>
+          Fall 2024:
+          I organized a
+          <a href="./bzf2024.html">
+            student seminar
+          </a>
+          on the Bernstein-Zelevinsky theory and local representations of GL(n).
+        </li>
+
+      </ul>
+
     </li>
+
+
+
+    <!-- Notes -->
 
     <li>
-      Fall 2024:
-      Math 10B - Calculus II
+
+      <strong>Notes</strong>
+
+      <ul>
+
+        <li>
+          <a href="./bumpex.html">
+            Bump Exercises
+          </a>
+        </li>
+
+        <li>
+          <a href="./algebra2.html">
+            Algebra II
+          </a>
+        </li>
+
+      </ul>
+
     </li>
+
+
+
+    <!-- Links -->
 
     <li>
-      Summer 2024:
-      Math 15A -
-      <a href="./s2024la.html">Linear Algebra</a>
+
+      <strong>Links</strong>
+
+      <ul>
+
+        <li>
+          <a href="https://tikzcd.yichuanshen.de/">
+            A website
+          </a>
+          to draw diagrams based on tikzcd.
+          Thank the author for the brilliant work.
+        </li>
+
+        <li>
+          <a href="./cooking.html">
+            My Cooking Collection
+          </a>,
+          as I have been enjoying cooking for a while.
+        </li>
+
+      </ul>
+
     </li>
 
-    <li>
-      Spring 2024:
-      Math 10B - Calculus II
-    </li>
-
-    <li>
-      Fall 2023:
-      Math 10B - Calculus II
-    </li>
-
-  </ul>
-
-
-
-  <h2>Activities and Service</h2>
-
-  <ul>
-
-    <li>
-      Fall 2026:
-      I am co-organizing
-      <a href="./everytopic.html">
-        Brandeis Everytopic Seminar
-      </a>.
-    </li>
-
-    <li>
-      Spring 2026:
-      I am mentoring a
-      <a href="./grp2026spring.html">
-        Guided Reading Program
-      </a>
-      on representation theory of finite groups.
-    </li>
-
-    <li>
-      Fall 2025:
-      I am organizing a
-      <a href="./25caspadic.html">
-        student seminar
-      </a>
-      on Casselman's notes on p-adic group representations.
-    </li>
-
-    <li>
-      Spring 2025:
-      I am organizing a
-      <a href="./gel2025.html">
-        student seminar
-      </a>
-      on Gelbart's book and related topics in automorphic representations.
-    </li>
-
-    <li>
-      Fall 2024:
-      I organized a
-      <a href="./bzf2024.html">
-        student seminar
-      </a>
-      on the Bernstein-Zelevinsky theory and local representations of GL(n).
-    </li>
-
-  </ul>
-
-
-
-  <h2>Notes</h2>
-
-  <ul>
-
-    <li>
-      <a href="./bumpex.html">
-        Bump Exercises
-      </a>
-    </li>
-
-    <li>
-      <a href="./algebra2.html">
-        Algebra II
-      </a>
-    </li>
-
-  </ul>
-
-
-
-  <h2>Links</h2>
-
-  <ul>
-
-    <li>
-      <a href="https://tikzcd.yichuanshen.de/">
-        A website
-      </a>
-      to draw diagrams based on tikzcd.
-      Thank the author for the brilliant work.
-    </li>
-
-    <li>
-      <a href="./cooking.html">
-        My Cooking Collection
-      </a>,
-      as I have been enjoying cooking for a while.
-    </li>
 
   </ul>
 
