@@ -80,30 +80,33 @@
 
 
     /* Main section spacing */
+.main-sections {
+  margin-top: 1.4em;
+}
 
-    .main-sections {
-      margin-top: 1.4em;
-    }
+.main-sections > li {
+  margin-bottom: 2em;
+}
 
-    .main-sections > li {
-      margin-bottom: 2em;
-    }
+.main-sections > li > strong {
+  display: inline-block;
+  margin-bottom: 0.4em;
+}
 
-    .main-sections > li > strong {
-      display: inline-block;
-      margin-bottom: 0.4em;
-    }
+.main-sections > li > p {
+  margin-top: 0.35em;
+  margin-bottom: 0.8em;
+}
 
-    .main-sections > li > p {
-      margin-top: 0.35em;
-      margin-bottom: 0.8em;
-    }
+.main-sections > li > ul {
+  margin-top: 0.45em;
+}
 
-    .main-sections > li > ul {
-      margin-top: 0.45em;
-      margin-bottom: 0;
-    }
-
+/* Make spacing between sections genuinely uniform */
+.main-sections > li > p:last-child,
+.main-sections > li > ul:last-child {
+  margin-bottom: 0;
+}
 
     /* Publication subcategories */
 
