@@ -21,59 +21,72 @@
 
     body {
       background: white;
-      font-family: serif;
+      font-family: Georgia, "Times New Roman", serif;
       font-size: 16px;
       line-height: 1.5;
       max-width: 900px;
-      margin: 30px 40px;
-      color: #000;
+      margin: 35px 45px;
+      color: #111;
     }
 
     h1 {
-      font-size: 32px;
-      font-weight: bold;
+      font-size: 34px;
       margin-top: 0;
-      margin-bottom: 0.5em;
+      margin-bottom: 0.45em;
     }
 
     h2 {
-      font-size: 24px;
-      font-weight: bold;
-      margin-top: 1.5em;
-      margin-bottom: 1em;
+      font-size: 25px;
+      margin-top: 1.6em;
+      margin-bottom: 1.1em;
+      border-bottom: 1px solid #bbb;
+      padding-bottom: 0.25em;
     }
 
     p {
-      margin: 0 0 1.1em 0;
+      margin: 0 0 1.05em 0;
     }
 
     a {
-      color: #0000cc;
+      color: #0000bb;
+      text-decoration: none;
+    }
+
+    a:hover {
       text-decoration: underline;
     }
 
     .seminar-entry {
-      margin-bottom: 2em;
+      margin-bottom: 2.2em;
+      padding-left: 16px;
+      border-left: 3px solid #222;
     }
 
     .seminar-heading {
-      margin-bottom: 0.35em;
+      margin-bottom: 0.55em;
+      line-height: 1.35;
     }
 
     .date {
-      font-weight: normal;
+      font-size: 16px;
+      font-weight: bold;
+      margin-right: 14px;
     }
 
     .speaker {
+      font-size: 21px;
       font-weight: bold;
     }
 
     .affiliation {
-      font-weight: normal;
+      font-size: 15px;
+      font-style: italic;
+      margin-left: 5px;
     }
 
     .title {
-      margin-bottom: 0.4em;
+      margin-bottom: 0.45em;
+      font-size: 17px;
     }
 
     .title-label {
@@ -89,9 +102,24 @@
     }
 
     @media (max-width: 700px) {
+
       body {
         margin: 25px 20px;
       }
+
+      .seminar-entry {
+        padding-left: 12px;
+      }
+
+      .date {
+        display: block;
+        margin-bottom: 2px;
+      }
+
+      .speaker {
+        font-size: 20px;
+      }
+
     }
 
   </style>
@@ -124,11 +152,14 @@
 
     <div class="seminar-heading">
       <span class="date">September 8, 2026</span>
-      &mdash;
+
       <span class="speaker">
         <a href="">Ziad Ghanem</a>
       </span>
-      <span class="affiliation">(Brandeis University)</span>
+
+      <span class="affiliation">
+        (Brandeis University)
+      </span>
     </div>
 
     <div class="title">
@@ -149,11 +180,14 @@
 
     <div class="seminar-heading">
       <span class="date">September 15, 2026</span>
-      &mdash;
+
       <span class="speaker">
         <a href="">Rob Jencks</a>
       </span>
-      <span class="affiliation">(Brandeis University)</span>
+
+      <span class="affiliation">
+        (Brandeis University)
+      </span>
     </div>
 
     <div class="title">
@@ -174,11 +208,14 @@
 
     <div class="seminar-heading">
       <span class="date">September 22, 2026</span>
-      &mdash;
+
       <span class="speaker">
         <a href="https://www.vneckrasov.com/">Vasiliy Neckrasov</a>
       </span>
-      <span class="affiliation">(Brandeis University)</span>
+
+      <span class="affiliation">
+        (Brandeis University)
+      </span>
     </div>
 
     <div class="title">
@@ -199,11 +236,16 @@
 
     <div class="seminar-heading">
       <span class="date">September 29, 2026</span>
-      &mdash;
+
       <span class="speaker">
-        <a href="https://sites.google.com/view/taehyeong-kim">Taehyeong Kim</a>
+        <a href="https://sites.google.com/view/taehyeong-kim">
+          Taehyeong Kim
+        </a>
       </span>
-      <span class="affiliation">(Brandeis University)</span>
+
+      <span class="affiliation">
+        (Brandeis University)
+      </span>
     </div>
 
     <div class="title">
@@ -224,11 +266,16 @@
 
     <div class="seminar-heading">
       <span class="date">October 20, 2026</span>
-      &mdash;
+
       <span class="speaker">
-        <a href="https://sites.google.com/view/surena-hozoori/home">Surena Hozoori</a>
+        <a href="https://sites.google.com/view/surena-hozoori/home">
+          Surena Hozoori
+        </a>
       </span>
-      <span class="affiliation">(Brandeis University)</span>
+
+      <span class="affiliation">
+        (Brandeis University)
+      </span>
     </div>
 
     <div class="title">
