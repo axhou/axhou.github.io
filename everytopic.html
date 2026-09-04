@@ -23,59 +23,65 @@
       background: white;
       font-family: serif;
       font-size: 16px;
-      line-height: 1.45;
+      line-height: 1.5;
       max-width: 900px;
       margin: 30px 40px;
+      color: #000;
     }
 
     h1 {
       font-size: 32px;
+      font-weight: bold;
+      margin-top: 0;
       margin-bottom: 0.5em;
     }
 
     h2 {
       font-size: 24px;
+      font-weight: bold;
       margin-top: 1.5em;
-      margin-bottom: 0.5em;
+      margin-bottom: 1em;
     }
 
     p {
-      margin: 0 0 1.2em 0;
+      margin: 0 0 1.1em 0;
     }
 
     a {
       color: #0000cc;
+      text-decoration: underline;
     }
 
     .seminar-entry {
       margin-bottom: 2em;
     }
 
+    .seminar-heading {
+      margin-bottom: 0.35em;
+    }
+
     .date {
-      font-size: 14px;
-      color: #666;
-      margin-bottom: 0.15em;
+      font-weight: normal;
     }
 
     .speaker {
-      font-size: 17px;
       font-weight: bold;
-      margin-bottom: 0.1em;
     }
 
     .affiliation {
-      font-size: 14px;
-      color: #666;
-      margin-bottom: 0.6em;
+      font-weight: normal;
     }
 
     .title {
+      margin-bottom: 0.4em;
+    }
+
+    .title-label {
       font-weight: bold;
-      margin-bottom: 0.5em;
     }
 
     .abstract {
-      margin-bottom: 0;
+      margin: 0;
     }
 
     .abstract-label {
@@ -92,13 +98,12 @@
 
 </head>
 
-
 <body>
 
   <h1>Brandeis Everytopic Seminar</h1>
 
   <p>
-    Goldsmith 317. Tuesdays starting Sep 8 from 1:00 pm - 2:00 pm.
+    Goldsmith 317. Tuesdays starting Sep 8 from 1:00 pm–2:00 pm.
   </p>
 
   <p>
@@ -115,25 +120,20 @@
 
 
   <!-- Talk 1 -->
-
   <div class="seminar-entry">
 
-    <div class="date">
-      September 8, 2026
-    </div>
-
-    <div class="speaker">
-      <a href="">
-        Ziad Ghanem
-      </a>
-    </div>
-
-    <div class="affiliation">
-      Brandeis University
+    <div class="seminar-heading">
+      <span class="date">September 8, 2026</span>
+      &mdash;
+      <span class="speaker">
+        <a href="">Ziad Ghanem</a>
+      </span>
+      <span class="affiliation">(Brandeis University)</span>
     </div>
 
     <div class="title">
-      Title: 
+      <span class="title-label">Title:</span>
+      To be announced.
     </div>
 
     <p class="abstract">
@@ -143,132 +143,105 @@
 
   </div>
 
-  <!-- Talk 2 -->
 
+  <!-- Talk 2 -->
   <div class="seminar-entry">
 
-    <div class="date">
-      September 15, 2026
-    </div>
-
-    <div class="speaker">
-      <a href="">
-        Rob Jencks
-      </a>
-    </div>
-
-    <div class="affiliation">
-      Brandeis University
+    <div class="seminar-heading">
+      <span class="date">September 15, 2026</span>
+      &mdash;
+      <span class="speaker">
+        <a href="">Rob Jencks</a>
+      </span>
+      <span class="affiliation">(Brandeis University)</span>
     </div>
 
     <div class="title">
-      Title: 
+      <span class="title-label">Title:</span>
+      To be announced.
     </div>
 
     <p class="abstract">
       <span class="abstract-label">Abstract.</span>
-      
+      To be announced.
     </p>
 
-      </div>
+  </div>
+
 
   <!-- Talk 3 -->
-
- <div class="seminar-entry">
-
-    <div class="date">
-      September 22, 2026
-    </div>
-
-<div class="speaker">
-      <a href="https://www.vneckrasov.com/">
-        Vasiliy Neckrasov
-      </a>
-    </div>
-
-    <div class="affiliation">
-      Brandeis University
-    </div>
-
-    <div class="title">
-      Title: 
-    </div>
-
-    <p class="abstract">
-      <span class="abstract-label">Abstract.</span>
-      
-    </p>
-
-  </div>
-
-  
-  <!-- Talk 4 -->
-
   <div class="seminar-entry">
 
-    <div class="date">
-      September 29, 2026
-    </div>
-
-    <div class="speaker">
-      <a href="https://sites.google.com/view/taehyeong-kim">
-        Taehyeong Kim
-      </a>
-    </div>
-
-    <div class="affiliation">
-      Brandeis University
+    <div class="seminar-heading">
+      <span class="date">September 22, 2026</span>
+      &mdash;
+      <span class="speaker">
+        <a href="https://www.vneckrasov.com/">Vasiliy Neckrasov</a>
+      </span>
+      <span class="affiliation">(Brandeis University)</span>
     </div>
 
     <div class="title">
-      Title: 
+      <span class="title-label">Title:</span>
+      To be announced.
     </div>
 
     <p class="abstract">
       <span class="abstract-label">Abstract.</span>
-      
+      To be announced.
     </p>
 
   </div>
 
 
-  
   <!-- Talk 4 -->
-
   <div class="seminar-entry">
 
-    <div class="date">
-      October 20, 2026
-    </div>
-
-    <div class="speaker">
-      <a href="https://sites.google.com/view/surena-hozoori/home">
-        Surena Hozoori
-      </a>
-    </div>
-
-    <div class="affiliation">
-      Brandeis University
+    <div class="seminar-heading">
+      <span class="date">September 29, 2026</span>
+      &mdash;
+      <span class="speaker">
+        <a href="https://sites.google.com/view/taehyeong-kim">Taehyeong Kim</a>
+      </span>
+      <span class="affiliation">(Brandeis University)</span>
     </div>
 
     <div class="title">
-      Title: 
+      <span class="title-label">Title:</span>
+      To be announced.
     </div>
 
     <p class="abstract">
       <span class="abstract-label">Abstract.</span>
-      
+      To be announced.
     </p>
 
   </div>
 
 
+  <!-- Talk 5 -->
+  <div class="seminar-entry">
 
+    <div class="seminar-heading">
+      <span class="date">October 20, 2026</span>
+      &mdash;
+      <span class="speaker">
+        <a href="https://sites.google.com/view/surena-hozoori/home">Surena Hozoori</a>
+      </span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
 
-  
-  <p>
-    <a href="./index.html"></a>
-  </p>
+    <div class="title">
+      <span class="title-label">Title:</span>
+      To be announced.
+    </div>
+
+    <p class="abstract">
+      <span class="abstract-label">Abstract.</span>
+      To be announced.
+    </p>
+
+  </div>
 
 </body>
 
