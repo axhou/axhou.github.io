@@ -124,6 +124,59 @@
 
   </style>
 
+
+  <style>
+    .archive-intro, .semester-note { color: #444; }
+    .semester-note { margin-top: -0.65em; }
+    .meeting, .source, .status { margin: 0.5em 0 0; }
+    .meeting, .source { font-size: 15px; }
+    .source { color: #444; }
+    .coverage-note summary { cursor: pointer; }
+    .coverage-note { margin-top: 2em; }
+    .coverage-note p { margin-top: 0.7em; }
+    .status { font-size: 15px; font-style: italic; }
+    .cancelled-entry { border-left-color: #888; color: #555; }
+    .seminar-entry { break-inside: avoid; }
+    .past-talks { margin-top: 3.5em; }
+    .past-talks > h2 { border: 0; margin-bottom: 0.6em; padding: 0; }
+    .archive-divider { border: 0; border-top: 1px solid #888; margin: 1.6em 0 0.7em; }
+    .archive-semester > summary {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-height: 44px;
+      padding: 12px 0;
+      border-bottom: 1px solid #ccc;
+      cursor: pointer;
+      list-style: none;
+    }
+    .archive-semester > summary::-webkit-details-marker { display: none; }
+    .archive-semester > summary::marker { content: ''; }
+    .archive-semester > summary:hover { color: #0000bb; }
+    .archive-semester > summary h3 { display: flex; align-items: center; gap: 14px; flex: 1; font-size: 25px; line-height: 1.3; margin: 0; }
+    .semester-label { flex: 1; }
+    .semester-count { font-size: 14px; font-weight: normal; color: #555; white-space: nowrap; }
+    .semester-toggle { font-size: 25px; width: 1em; text-align: center; }
+    .when-open { display: none; }
+    .archive-semester[open] > summary .when-open { display: inline; }
+    .archive-semester[open] > summary .when-closed { display: none; }
+    .semester-content { padding-top: 1.6em; }
+    .semester-content .semester-note { margin-top: 0; }
+    a:focus-visible, summary:focus-visible { outline: 2px solid #0000bb; outline-offset: 3px; }
+    @media (max-width: 700px) {
+      .affiliation { display: block; margin-left: 0; }
+      h1 { font-size: 30px; }
+      .archive-semester > summary { gap: 8px; }
+      .archive-semester > summary h3 { font-size: 22px; gap: 8px; }
+      .title, .abstract { overflow-wrap: anywhere; }
+    }
+    @media print {
+      body { max-width: none; margin: 20mm; }
+      h2 { break-after: avoid; }
+    }
+
+  
+  </style>
 </head>
 
 <body>
@@ -401,6 +454,2923 @@
     </p>
   </div>
 
+
+
+<section class="past-talks" id="past-talks" aria-labelledby="past-talks-heading">
+  <h2 id="past-talks-heading">Past Everytopic Seminar Talks</h2>
+  <p>Below is a collection of past Everytopic Seminar talks that I have gathered from available records.
+    Click a semester to expand its talks.</p>
+  <p class="archive-intro">215 historical listings, with the most recent semester first and talks in chronological order within each semester.
+    Some records are incomplete; sources and links to abstracts or posters are included where available.
+    Compiled September 5, 2026.</p>
+  <hr class="archive-divider">
+
+<details class="semester archive-semester" id="spring-2025" data-year="2025" data-semester="Spring">
+  <summary>
+    <h3 id="heading-spring-2025">
+      <span class="semester-label">Spring 2025</span>
+      <span class="semester-count">2 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-214" data-kind="historical" data-date="2025-02">
+    <div class="seminar-heading">
+      <time class="date" datetime="2025-02">February 2025</time>
+      <span class="speaker">Robin Zhang</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Title not recovered.</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> Not recovered.</p>
+    <p class="source"><a href="https://www.ihes.fr/~rzhang/files/CV_RZhang.pdf">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-215" data-kind="historical" data-date="2025-04">
+    <div class="seminar-heading">
+      <time class="date" datetime="2025-04">April 2025</time>
+      <span class="speaker">Malavika Mukundan</span>
+      <span class="affiliation">(Boston University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Title not recovered.</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> Not recovered.</p>
+    <p class="source"><a href="https://malavikamukundan.github.io/MM_CV.pdf">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="fall-2024" data-year="2024" data-semester="Fall">
+  <summary>
+    <h3 id="heading-fall-2024">
+      <span class="semester-label">Fall 2024</span>
+      <span class="semester-count">1 talk</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-213" data-kind="historical" data-date="2024-10">
+    <div class="seminar-heading">
+      <time class="date" datetime="2024-10">October 2024</time>
+      <span class="speaker">Joshua (Josh) Southerland</span>
+      <span class="affiliation">(Indiana University Bloomington)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Diophantine properties of affine diffeomorphisms of a lattice surfaces</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> Not recovered.</p>
+    <p class="source"><a href="https://sub.mersion.cc/cv.pdf">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="spring-2024" data-year="2024" data-semester="Spring">
+  <summary>
+    <h3 id="heading-spring-2024">
+      <span class="semester-label">Spring 2024</span>
+      <span class="semester-count">5 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry cancelled-entry" id="cancelled-2024-01-29" data-kind="cancelled" data-date="2024-01-29">
+    <div class="seminar-heading">
+      <time class="date" datetime="2024-01-29">January 29, 2024</time>
+      <span class="speaker">Cancelled — Department Meeting</span>
+    </div>
+    <p class="source"><a href="https://web.archive.org/web/20240818003213/https://sites.google.com/brandeis.edu/everytopic-seminar/home">Source</a>. No speaker or talk title was announced.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-208" data-kind="historical" data-date="2024-02-12">
+    <div class="seminar-heading">
+      <time class="date" datetime="2024-02-12">February 12, 2024</time>
+      <span class="speaker">Guilherme Silva</span>
+      <span class="affiliation">(Universidade de São Paulo (ICMC-USP))</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Intrasensitive Dice</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://web.archive.org/web/20240818003213/https://sites.google.com/brandeis.edu/everytopic-seminar/home">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:15–13:15 (local time) · Goldsmith 300.</p>
+    <p class="source"><a href="https://sites.google.com/brandeis.edu/everytopic-seminar/home">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-209" data-kind="historical" data-date="2024-03-11">
+    <div class="seminar-heading">
+      <time class="date" datetime="2024-03-11">March 11, 2024</time>
+      <span class="speaker">Lior Alon</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Fourier Quasicrystals via Lee-Yang Polynomials</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://web.archive.org/web/20240818003213/https://sites.google.com/brandeis.edu/everytopic-seminar/home">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:15–13:15 (local time) · Goldsmith 300.</p>
+    <p class="source"><a href="https://sites.google.com/brandeis.edu/everytopic-seminar/home">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-210" data-kind="historical" data-date="2024-03-25">
+    <div class="seminar-heading">
+      <time class="date" datetime="2024-03-25">March 25, 2024</time>
+      <span class="speaker">Keaton Quinn</span>
+      <span class="affiliation">(Boston College)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Isometric immersions and the Gauss-Codazzi equations at infinity.</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://web.archive.org/web/20240818003213/https://sites.google.com/brandeis.edu/everytopic-seminar/home">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:15–13:15 (local time) · Goldsmith 300.</p>
+    <p class="source"><a href="https://sites.google.com/brandeis.edu/everytopic-seminar/home">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-211" data-kind="historical" data-date="2024-04-15">
+    <div class="seminar-heading">
+      <time class="date" datetime="2024-04-15">April 15, 2024</time>
+      <span class="speaker">Lorenzo Ruffoni</span>
+      <span class="affiliation">(Tufts University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Graphs, groups, and a recognition problem</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://web.archive.org/web/20240818003213/https://sites.google.com/brandeis.edu/everytopic-seminar/home">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:15–13:15 (local time) · Goldsmith 300.</p>
+    <p class="source"><a href="https://sites.google.com/brandeis.edu/everytopic-seminar/home">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-212" data-kind="historical" data-date="2024-05-06">
+    <div class="seminar-heading">
+      <time class="date" datetime="2024-05-06">May 6, 2024</time>
+      <span class="speaker">Bingyu Zhang</span>
+      <span class="affiliation">(University of Southern Denmark)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Microlocal theory of sheaves: a new approach to symplectic geometry.</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://web.archive.org/web/20240818003213/https://sites.google.com/brandeis.edu/everytopic-seminar/home">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:15–13:15 (local time) · Goldsmith 300.</p>
+    <p class="source"><a href="https://sites.google.com/brandeis.edu/everytopic-seminar/home">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="unknown-2024" data-year="2024" data-semester="Unknown">
+  <summary>
+    <h3 id="heading-unknown-2024">
+      <span class="semester-label">2024 — Semester Unconfirmed</span>
+      <span class="semester-count">1 talk</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+  <p class="semester-note">The source gives the year only; no semester has been assigned.</p>
+
+  <div class="seminar-entry" id="ET-207" data-kind="historical" data-date="2024">
+    <div class="seminar-heading">
+      <span class="date">2024</span>
+      <span class="speaker">Nima Hoda</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Nonpositively curved groups</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> Not recovered.</p>
+    <p class="source"><a href="https://nimahoda.net/cv.pdf">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="fall-2023" data-year="2023" data-semester="Fall">
+  <summary>
+    <h3 id="heading-fall-2023">
+      <span class="semester-label">Fall 2023</span>
+      <span class="semester-count">3 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-204" data-kind="historical" data-date="2023-10-23">
+    <div class="seminar-heading">
+      <time class="date" datetime="2023-10-23">October 23, 2023</time>
+      <span class="speaker">Promit Ghosal</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> A probabilistic dive into Liouville Quantum Blocks.</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://web.archive.org/web/20240818003213/https://sites.google.com/brandeis.edu/everytopic-seminar/home">View abstract / seminar details</a>.</p>
+    <p class="source"><a href="https://sites.google.com/brandeis.edu/everytopic-seminar/home">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-205" data-kind="historical" data-date="2023-11-06">
+    <div class="seminar-heading">
+      <time class="date" datetime="2023-11-06">November 6, 2023</time>
+      <span class="speaker">Jerson Caro Reyes</span>
+      <span class="affiliation">(Boston University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Lower bounds for the Mordell-Weil rank</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://web.archive.org/web/20240818003213/https://sites.google.com/brandeis.edu/everytopic-seminar/home">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:15–13:15 (local time) · Goldsmith 300.</p>
+    <p class="source"><a href="https://sites.google.com/brandeis.edu/everytopic-seminar/home">Source</a> · <a href="https://web.archive.org/web/20231107191856/https://www.brandeis.edu/science/science-events/index.html">Additional source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-206" data-kind="historical" data-date="2023-11-20">
+    <div class="seminar-heading">
+      <time class="date" datetime="2023-11-20">November 20, 2023</time>
+      <span class="speaker">Yangyang Wang</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Mathematical analysis and models for understanding neural and other dynamics</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://web.archive.org/web/20240818003213/https://sites.google.com/brandeis.edu/everytopic-seminar/home">View abstract / seminar details</a>.</p>
+    <p class="source"><a href="https://sites.google.com/brandeis.edu/everytopic-seminar/home">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="fall-2022" data-year="2022" data-semester="Fall">
+  <summary>
+    <h3 id="heading-fall-2022">
+      <span class="semester-label">Fall 2022</span>
+      <span class="semester-count">3 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-201" data-kind="historical" data-date="2022-10-20">
+    <div class="seminar-heading">
+      <time class="date" datetime="2022-10-20">October 20, 2022</time>
+      <span class="speaker">Beibei Liu</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Surgeries, spines and link Floer homology</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://web.archive.org/web/20240726102045/https://sites.google.com/brandeis.edu/everytopicseminar/home">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:10–13:15 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://sites.google.com/brandeis.edu/everytopicseminar/home">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-202" data-kind="historical" data-date="2022-11-07">
+    <div class="seminar-heading">
+      <time class="date" datetime="2022-11-07">November 7, 2022</time>
+      <span class="speaker">Gleb Nenashev</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Zonotopal Algebra</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://web.archive.org/web/20240726102045/https://sites.google.com/brandeis.edu/everytopicseminar/home">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:10–13:15 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://sites.google.com/brandeis.edu/everytopicseminar/home">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-203" data-kind="historical" data-date="2022-12-05">
+    <div class="seminar-heading">
+      <time class="date" datetime="2022-12-05">December 5, 2022</time>
+      <span class="speaker">Assaf Bar-Natan</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Exploring Exponents</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://web.archive.org/web/20240726102045/https://sites.google.com/brandeis.edu/everytopicseminar/home">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:10–13:15 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://sites.google.com/brandeis.edu/everytopicseminar/home">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="fall-2020" data-year="2020" data-semester="Fall">
+  <summary>
+    <h3 id="heading-fall-2020">
+      <span class="semester-label">Fall 2020</span>
+      <span class="semester-count">1 talk</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-200" data-kind="historical" data-date="2020-12">
+    <div class="seminar-heading">
+      <time class="date" datetime="2020-12">December 2020</time>
+      <span class="speaker">Rachael Norton</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Twisted groupoid C*-algebras and their Cartan subalgebras</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://nortondoesmath.weebly.com/research.html">View abstract / seminar details</a>.</p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="spring-2020" data-year="2020" data-semester="Spring">
+  <summary>
+    <h3 id="heading-spring-2020">
+      <span class="semester-label">Spring 2020</span>
+      <span class="semester-count">6 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-194" data-kind="historical" data-date="2020-01-27">
+    <div class="seminar-heading">
+      <time class="date" datetime="2020-01-27">January 27, 2020</time>
+      <span class="speaker">Elden Elmanto</span>
+      <span class="affiliation">(Harvard)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Cobordisms and moduli spaces in algebraic geometry</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~rahulkrishna/#seminars">View abstract / seminar details</a>.</p>
+    <p class="meeting">17:00–17:50 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-195" data-kind="historical" data-date="2020-02-24">
+    <div class="seminar-heading">
+      <time class="date" datetime="2020-02-24">February 24, 2020</time>
+      <span class="speaker">Andreas Mihatsch</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Moduli of p-divisible groups</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~rahulkrishna/#seminars">View abstract / seminar details</a>.</p>
+    <p class="meeting">17:00–17:50 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-196" data-kind="historical" data-date="2020-03-02">
+    <div class="seminar-heading">
+      <time class="date" datetime="2020-03-02">March 2, 2020</time>
+      <span class="speaker">Sebastien Picard</span>
+      <span class="affiliation">(Harvard)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Non-Kahler Calabi-Yau manifolds</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~rahulkrishna/#seminars">View abstract / seminar details</a>.</p>
+    <p class="meeting">17:00–17:50 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-197" data-kind="historical" data-date="2020-03-23">
+    <div class="seminar-heading">
+      <time class="date" datetime="2020-03-23">March 23, 2020</time>
+      <span class="speaker">Anthony Conway</span>
+      <span class="affiliation">(Max Planck)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Title not recovered.</div>
+    <p class="status">Advance announcement; whether the talk took place is unconfirmed.</p>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~rahulkrishna/#seminars">View abstract / seminar details</a>.</p>
+    <p class="meeting">17:00–17:50 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-198" data-kind="historical" data-date="2020-03-27">
+    <div class="seminar-heading">
+      <time class="date" datetime="2020-03-27">March 27, 2020</time>
+      <span class="speaker">Matt Kerr</span>
+      <span class="affiliation">(WUSTL)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Title not recovered.</div>
+    <p class="status">Advance announcement; whether the talk took place is unconfirmed.</p>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~rahulkrishna/#seminars">View abstract / seminar details</a>.</p>
+    <p class="meeting">Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-199" data-kind="historical" data-date="2020-04-27">
+    <div class="seminar-heading">
+      <time class="date" datetime="2020-04-27">April 27, 2020</time>
+      <span class="speaker">Rachael Norton</span>
+      <span class="affiliation">(Fitchburg State)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Title not recovered.</div>
+    <p class="status">Advance announcement; whether the talk took place is unconfirmed.</p>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~rahulkrishna/#seminars">View abstract / seminar details</a>.</p>
+    <p class="meeting">17:00–17:50 (local time) · Goldsmith 300.</p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="fall-2019" data-year="2019" data-semester="Fall">
+  <summary>
+    <h3 id="heading-fall-2019">
+      <span class="semester-label">Fall 2019</span>
+      <span class="semester-count">7 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-187" data-kind="historical" data-date="2019-09-26">
+    <div class="seminar-heading">
+      <time class="date" datetime="2019-09-26">September 26, 2019</time>
+      <span class="speaker">Rahul Krishna</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> An introduction to the Gan-Gross-Prasad conjectures</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/current.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">11:00–12:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-188" data-kind="historical" data-date="2019-10-17">
+    <div class="seminar-heading">
+      <time class="date" datetime="2019-10-17">October 17, 2019</time>
+      <span class="speaker">Satyan Devadoss</span>
+      <span class="affiliation">(UCSD)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Unfolding Mathematics at Burning Man</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/current.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">11:00–12:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-189" data-kind="historical" data-date="2019-10-31">
+    <div class="seminar-heading">
+      <time class="date" datetime="2019-10-31">October 31, 2019</time>
+      <span class="speaker">Marius Lemm</span>
+      <span class="affiliation">(Harvard)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Global eigenvalue distribution of matrices defined by the skew-shift</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/current.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">11:00–12:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-190" data-kind="historical" data-date="2019-11-07">
+    <div class="seminar-heading">
+      <time class="date" datetime="2019-11-07">November 7, 2019</time>
+      <span class="speaker">Matt Stoffregen</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Heegaard Floer homology, 4-Manifolds, and Triangulations</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/current.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">11:00–12:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-191" data-kind="historical" data-date="2019-11-14">
+    <div class="seminar-heading">
+      <time class="date" datetime="2019-11-14">November 14, 2019</time>
+      <span class="speaker">Claire Burrin</span>
+      <span class="affiliation">(Rutgers)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Discrete lattice orbits in the plane</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/current.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">11:00–12:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-192" data-kind="historical" data-date="2019-11-21">
+    <div class="seminar-heading">
+      <time class="date" datetime="2019-11-21">November 21, 2019</time>
+      <span class="speaker">Lisa Piccirillo</span>
+      <span class="affiliation">(MIT and Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Knot concordance and 4-manifolds</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/current.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">11:00–12:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-193" data-kind="historical" data-date="2019-12-05">
+    <div class="seminar-heading">
+      <time class="date" datetime="2019-12-05">December 5, 2019</time>
+      <span class="speaker">Ryan Goh</span>
+      <span class="affiliation">(BU)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Growth and patterns</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/current.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">11:00–12:00 (local time) · Goldsmith 300.</p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="spring-2019" data-year="2019" data-semester="Spring">
+  <summary>
+    <h3 id="heading-spring-2019">
+      <span class="semester-label">Spring 2019</span>
+      <span class="semester-count">5 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-182" data-kind="historical" data-date="2019-01-24">
+    <div class="seminar-heading">
+      <time class="date" datetime="2019-01-24">January 24, 2019</time>
+      <span class="speaker">David Lipshutz</span>
+      <span class="affiliation">(Technion)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Synchronous oscillatory behavior for systems of coupled delay differential equations</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/spring2019.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-183" data-kind="historical" data-date="2019-02-28">
+    <div class="seminar-heading">
+      <time class="date" datetime="2019-02-28">February 28, 2019</time>
+      <span class="speaker">Daniel Álvarez-Gavela</span>
+      <span class="affiliation">(IAS)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Lagrangian and Legendrian manifolds from the viewpoint of parametric Morse theory</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/spring2019.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-184" data-kind="historical" data-date="2019-03-14">
+    <div class="seminar-heading">
+      <time class="date" datetime="2019-03-14">March 14, 2019</time>
+      <span class="speaker">Denis Patterson</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Spatially extended ecological models</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/spring2019.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-185" data-kind="historical" data-date="2019-04-18">
+    <div class="seminar-heading">
+      <time class="date" datetime="2019-04-18">April 18, 2019</time>
+      <span class="speaker">Michael Ben-Zvi</span>
+      <span class="affiliation">(Tufts)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> A combination theorem for CAT(0) groups and their boundaries</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/spring2019.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-186" data-kind="historical" data-date="2019-04-30">
+    <div class="seminar-heading">
+      <time class="date" datetime="2019-04-30">April 30, 2019</time>
+      <span class="speaker">Amit Shah</span>
+      <span class="affiliation">(University of Leeds)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Cluster categories and partial cluster-tilted algebras</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/spring2019.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="fall-2018" data-year="2018" data-semester="Fall">
+  <summary>
+    <h3 id="heading-fall-2018">
+      <span class="semester-label">Fall 2018</span>
+      <span class="semester-count">10 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-172" data-kind="historical" data-date="2018-09-20">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-09-20">September 20, 2018</time>
+      <span class="speaker">Kiyoshi Igusa</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Higher Reidemeister torsion</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/fall2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-173" data-kind="historical" data-date="2018-10-04">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-10-04">October 4, 2018</time>
+      <span class="speaker">Robert Lemke Oliver</span>
+      <span class="affiliation">(Tufts University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Counting arithmetic objects</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/fall2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-174" data-kind="historical" data-date="2018-10-11">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-10-11">October 11, 2018</time>
+      <span class="speaker">Danny Ruberman</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Gauge theory and Scalar Curvature</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/fall2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-175" data-kind="historical" data-date="2018-10-18">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-10-18">October 18, 2018</time>
+      <span class="speaker">Benjamin Landon</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Universality in random matrix theory</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/fall2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-176" data-kind="historical" data-date="2018-10-25">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-10-25">October 25, 2018</time>
+      <span class="speaker">Rob Kropholler</span>
+      <span class="affiliation">(Tufts University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Formal languages and the word problem in groups</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/fall2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-177" data-kind="historical" data-date="2018-11-01">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-11-01">November 1, 2018</time>
+      <span class="speaker">Joël Bellaïche</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Divisibility of coefficients of modular forms</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/fall2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-178" data-kind="historical" data-date="2018-11-08">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-11-08">November 8, 2018</time>
+      <span class="speaker">John Wilmes</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> A Brief Tour of the Graph Isomorphism Problem</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/fall2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-179" data-kind="historical" data-date="2018-11-15">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-11-15">November 15, 2018</time>
+      <span class="speaker">Olivier Bernardi</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> A Tutte polynomial for directed graphs</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/fall2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-180" data-kind="historical" data-date="2018-11-29">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-11-29">November 29, 2018</time>
+      <span class="speaker">Thomas Fai</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> The immersed boundary method for fluid-structure interaction: formulation, applications, and new directions</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/fall2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-181" data-kind="historical" data-date="2018-12-06">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-12-06">December 6, 2018</time>
+      <span class="speaker">Daniel Glasscock</span>
+      <span class="affiliation">(Northeastern University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Ergodic Szemerédi theorems and the combinatorics of set intersections</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~cbregman/Everytopic/fall2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="spring-2018" data-year="2018" data-semester="Spring">
+  <summary>
+    <h3 id="heading-spring-2018">
+      <span class="semester-label">Spring 2018</span>
+      <span class="semester-count">12 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-160" data-kind="historical" data-date="2018-01-17">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-01-17">January 17, 2018</time>
+      <span class="speaker">Ioannis Konstantoulas</span>
+      <span class="affiliation">(University of Bristol)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Geometry of numbers and spaces of lattices</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/spring2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-161" data-kind="historical" data-date="2018-01-24">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-01-24">January 24, 2018</time>
+      <span class="speaker">Keith Merrill</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Modern Notions of Privacy</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/spring2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-162" data-kind="historical" data-date="2018-01-31">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-01-31">January 31, 2018</time>
+      <span class="speaker">Omer Offen</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Gelfand pairs old and new</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/spring2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-163" data-kind="historical" data-date="2018-02-07">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-02-07">February 7, 2018</time>
+      <span class="speaker">Jonathan Touboul</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Around the dynamics of nonlinear integrate-and-fire neurons</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/spring2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-164" data-kind="historical" data-date="2018-02-14">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-02-14">February 14, 2018</time>
+      <span class="speaker">Dmitry Kleinbock</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Diophantine exponents and dynamical systems</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/spring2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-165" data-kind="historical" data-date="2018-02-28">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-02-28">February 28, 2018</time>
+      <span class="speaker">Kostiantyn Tolmachov</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Towards a categorification of a projection from an affine to a finite Hecke algebra in type A</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/spring2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-166" data-kind="historical" data-date="2018-03-07">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-03-07">March 7, 2018</time>
+      <span class="speaker">Ananth Shankar</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Algebraic solutions to differential equations</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/spring2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-167" data-kind="historical" data-date="2018-03-14">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-03-14">March 14, 2018</time>
+      <span class="speaker">Laure Flapan</span>
+      <span class="affiliation">(Northeastern)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Monodromy of Kodaira Fibrations</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/spring2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-168" data-kind="historical" data-date="2018-03-21">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-03-21">March 21, 2018</time>
+      <span class="speaker">Elina Robeva</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Maximum Likelihood Estimation under Total Positivity</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/spring2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-169" data-kind="historical" data-date="2018-03-28">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-03-28">March 28, 2018</time>
+      <span class="speaker">An Huang</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Hasse-Witt matrices and period integrals</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/spring2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-170" data-kind="historical" data-date="2018-04-11">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-04-11">April 11, 2018</time>
+      <span class="speaker">Bong Lian</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Classical residues and periods - a gentle introduction</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/spring2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-171" data-kind="historical" data-date="2018-04-18">
+    <div class="seminar-heading">
+      <time class="date" datetime="2018-04-18">April 18, 2018</time>
+      <span class="speaker">Eric Hanson</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Realizing τ-Cluster Morphism Categories as NPC Cube Complexes</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/spring2018.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">12:00–13:00 (local time) · Goldsmith 300.</p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="fall-2017" data-year="2017" data-semester="Fall">
+  <summary>
+    <h3 id="heading-fall-2017">
+      <span class="semester-label">Fall 2017</span>
+      <span class="semester-count">10 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-150" data-kind="historical" data-date="2017-09-14">
+    <div class="seminar-heading">
+      <time class="date" datetime="2017-09-14">September 14, 2017</time>
+      <span class="speaker">Ying Zhou</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Tame quivers have finitely many m-maximal green sequences</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/fall2017.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:00 (local time) · Goldsmith 317.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-151" data-kind="historical" data-date="2017-09-28">
+    <div class="seminar-heading">
+      <time class="date" datetime="2017-09-28">September 28, 2017</time>
+      <span class="speaker">Dmitry Kleinbock</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Dynamical systems on arithmetic homogeneous spaces</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/fall2017.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:00 (local time) · Goldsmith 317.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-152" data-kind="historical" data-date="2017-10-03">
+    <div class="seminar-heading">
+      <time class="date" datetime="2017-10-03">October 3, 2017</time>
+      <span class="speaker">Nattalie Tamam</span>
+      <span class="affiliation">(Tel Aviv University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Divergent trajectories in arithmetic homogeneous spaces of rational rank two</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/fall2017.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:00 (local time) · Goldsmith 317.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-153" data-kind="historical" data-date="2017-10-11">
+    <div class="seminar-heading">
+      <time class="date" datetime="2017-10-11">October 11, 2017</time>
+      <span class="speaker">Dingxin Zhang</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Absolute values of Frobenius eigenvalues</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/fall2017.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:00 (local time) · Goldsmith 317.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-154" data-kind="historical" data-date="2017-10-19">
+    <div class="seminar-heading">
+      <time class="date" datetime="2017-10-19">October 19, 2017</time>
+      <span class="speaker">Leonid Petrov</span>
+      <span class="affiliation">(University of Virginia)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Overview of random lozenge tilings</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/fall2017.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:00 (local time) · Goldsmith 317.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-155" data-kind="historical" data-date="2017-11-02">
+    <div class="seminar-heading">
+      <time class="date" datetime="2017-11-02">November 2, 2017</time>
+      <span class="speaker">Ira Gessel</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> An introduction to lattice path enumeration</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/fall2017.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:00 (local time) · Goldsmith 317.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-156" data-kind="historical" data-date="2017-11-09">
+    <div class="seminar-heading">
+      <time class="date" datetime="2017-11-09">November 9, 2017</time>
+      <span class="speaker">Corey Bregman</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Outer space, flat tori, and the period mapping</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/fall2017.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:00 (local time) · Goldsmith 317.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-157" data-kind="historical" data-date="2017-11-16">
+    <div class="seminar-heading">
+      <time class="date" datetime="2017-11-16">November 16, 2017</time>
+      <span class="speaker">Ruth Charney</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Searching for Hyperbolicity</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/fall2017.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:00 (local time) · Goldsmith 317.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-158" data-kind="historical" data-date="2017-11-30">
+    <div class="seminar-heading">
+      <time class="date" datetime="2017-11-30">November 30, 2017</time>
+      <span class="speaker">Wenyu Pan</span>
+      <span class="affiliation">(Yale University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Local mixing and abelian covers of finite volume hyperbolic manifolds</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/fall2017.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:00 (local time) · Goldsmith 317.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-159" data-kind="historical" data-date="2017-12-07">
+    <div class="seminar-heading">
+      <time class="date" datetime="2017-12-07">December 7, 2017</time>
+      <span class="speaker">Shahriar Mirzadeh</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Dimension estimates for the set of points with non-dense orbit in homogeneous spaces</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kmatveev/fall2017.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:00 (local time) · Goldsmith 317.</p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="spring-2016" data-year="2016" data-semester="Spring">
+  <summary>
+    <h3 id="heading-spring-2016">
+      <span class="semester-label">Spring 2016</span>
+      <span class="semester-count">1 talk</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-149" data-kind="historical" data-date="2016-03">
+    <div class="seminar-heading">
+      <time class="date" datetime="2016-03">March 2016</time>
+      <span class="speaker">Olivier Bernardi</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Title not recovered.</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://peeps.unet.brandeis.edu/~bernardi/fullprof/intellectual-statement.pdf">View abstract / seminar details</a>.</p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="fall-2015" data-year="2015" data-semester="Fall">
+  <summary>
+    <h3 id="heading-fall-2015">
+      <span class="semester-label">Fall 2015</span>
+      <span class="semester-count">11 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-138" data-kind="historical" data-date="2015-09-03">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-09-03">September 3, 2015</time>
+      <span class="speaker">Danny Ruberman</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Configurations of embedded spheres</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~aruray/everytopic/fall2015.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:15–15:05 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-139" data-kind="historical" data-date="2015-09-17">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-09-17">September 17, 2015</time>
+      <span class="speaker">Heather Macbeth</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Geometric minimax problems</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~aruray/everytopic/fall2015.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:15–15:05 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-140" data-kind="historical" data-date="2015-09-24">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-09-24">September 24, 2015</time>
+      <span class="speaker">David Hansen</span>
+      <span class="affiliation">(Columbia)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Arithmetic properties of Hurwitz numbers</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~aruray/everytopic/fall2015.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:15–15:05 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-141" data-kind="historical" data-date="2015-10-08">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-10-08">October 8, 2015</time>
+      <span class="speaker">Gordana Todorov</span>
+      <span class="affiliation">(Northeastern)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Semi-invariant pictures and Maximal green sequences</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~aruray/everytopic/Todorov2015.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:15–15:05 (local time) · Goldsmith 300.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~aruray/everytopic/fall2015.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-142" data-kind="historical" data-date="2015-10-22">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-10-22">October 22, 2015</time>
+      <span class="speaker">Michael LaCroix</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> A Surprising Decomposition for the Singular Values of the Gaussian Unitary Ensemble</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~aruray/everytopic/fall2015.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:15–15:05 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-143" data-kind="historical" data-date="2015-10-29">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-10-29">October 29, 2015</time>
+      <span class="speaker">Alexander Garver</span>
+      <span class="affiliation">(Minnesota)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Oriented Flip Graphs and Maximal Green Sequences</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~aruray/everytopic/fall2015.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:15–15:05 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-144" data-kind="historical" data-date="2015-11-05">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-11-05">November 5, 2015</time>
+      <span class="speaker">Anand Patel</span>
+      <span class="affiliation">(BC)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Plane Cubics, Degenerate Polars, Degenerate Satellites, and Moduli spaces</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~aruray/everytopic/fall2015.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:15–15:05 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-145" data-kind="historical" data-date="2015-11-12">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-11-12">November 12, 2015</time>
+      <span class="speaker">Yaiza Canzani</span>
+      <span class="affiliation">(Harvard)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Geometry and topology of the zero set of monochromatic random waves</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~aruray/everytopic/fall2015.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:15–15:05 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-146" data-kind="historical" data-date="2015-11-19">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-11-19">November 19, 2015</time>
+      <span class="speaker">Carl Wang Erickson</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Zeta-functions and Arithmetic</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~aruray/everytopic/fall2015.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:15–15:05 (local time) · Goldsmith 300.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-147" data-kind="historical" data-date="2015-11-30">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-11-30">November 30, 2015</time>
+      <span class="speaker">Lei Fu</span>
+      <span class="affiliation">(Nankai)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Monodromy of isolated singularities</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~aruray/everytopic/fall2015.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:15–15:05 (local time) · Goldsmith 317.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-148" data-kind="historical" data-date="2015-12-03">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-12-03">December 3, 2015</time>
+      <span class="speaker">Sarah Bray</span>
+      <span class="affiliation">(Tufts)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Ergodic geometry for nonstrictly convex Hilbert geometries</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~aruray/everytopic/fall2015.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:15–15:05 (local time) · Goldsmith 300.</p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="spring-2015" data-year="2015" data-semester="Spring">
+  <summary>
+    <h3 id="heading-spring-2015">
+      <span class="semester-label">Spring 2015</span>
+      <span class="semester-count">9 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-129" data-kind="historical" data-date="2015-02-03">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-02-03">February 3, 2015</time>
+      <span class="speaker">Siu-Cheong Lau</span>
+      <span class="affiliation">(Harvard)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> A constructive and functorial approach to mirror symmetry</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Spring15.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">15:30–16:50 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-130" data-kind="historical" data-date="2015-02-24">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-02-24">February 24, 2015</time>
+      <span class="speaker">Dylan Rupel</span>
+      <span class="affiliation">(Northeastern)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Quantum groups, quantum cluster algebras, and their categorifications</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Spring15.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">15:30–16:50 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-131" data-kind="historical" data-date="2015-03-03">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-03-03">March 3, 2015</time>
+      <span class="speaker">Arunima Ray</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Shake slice and shake concordant knots.</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Spring15.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">15:30–16:50 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-132" data-kind="historical" data-date="2015-03-10">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-03-10">March 10, 2015</time>
+      <span class="speaker">Paul Monsky</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Some Characteristic 2 Hecke algebras. A theme of Nicolas and Serre, with variations</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Spring15.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">15:30–16:50 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-133" data-kind="historical" data-date="2015-03-17">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-03-17">March 17, 2015</time>
+      <span class="speaker">Anna Medvedovsky</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Nilpotent recursion operators + applications to mod-p Hecke algebras</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Spring15.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">15:30–16:50 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-134" data-kind="historical" data-date="2015-03-24">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-03-24">March 24, 2015</time>
+      <span class="speaker">Jonathan Novak</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Random lozenge tilings and Hurwitz numbers</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Spring15.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">15:30–16:50 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-135" data-kind="historical" data-date="2015-03-31">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-03-31">March 31, 2015</time>
+      <span class="speaker">Charles Smart</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> The Abelian sandpile on periodic Euclidean graphs</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Spring15.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">15:30–16:50 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-136" data-kind="historical" data-date="2015-04-14">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-04-14">April 14, 2015</time>
+      <span class="speaker">Alison Miller</span>
+      <span class="affiliation">(Harvard)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Classical knot invariants, arithmetic invariant theory, and counting simple (4q+1)-knots</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Spring15.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">15:30–16:50 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-137" data-kind="historical" data-date="2015-04-21">
+    <div class="seminar-heading">
+      <time class="date" datetime="2015-04-21">April 21, 2015</time>
+      <span class="speaker">Steven Simon</span>
+      <span class="affiliation">(Wellesley)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Topological Combinatorics via Finite Fourier Analysis</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Spring15.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">15:30–16:50 (local time) · Goldsmith 226.</p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="fall-2014" data-year="2014" data-semester="Fall">
+  <summary>
+    <h3 id="heading-fall-2014">
+      <span class="semester-label">Fall 2014</span>
+      <span class="semester-count">9 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-120" data-kind="historical" data-date="2014-09-19">
+    <div class="seminar-heading">
+      <time class="date" datetime="2014-09-19">September 19, 2014</time>
+      <span class="speaker">Ilya Vinogradov</span>
+      <span class="affiliation">(University of Bristol)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Effective Ratner Theorem for ASL(2, R) and the gaps of the sequence √<i>n</i> modulo 1</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Fall14.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-121" data-kind="historical" data-date="2014-10-03">
+    <div class="seminar-heading">
+      <time class="date" datetime="2014-10-03">October 3, 2014</time>
+      <span class="speaker">Andreas Arvanitoyeorgos</span>
+      <span class="affiliation">(University of Patras and Tufts University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Aspects of homogeneous geometry with application to invariant Einstein metrics</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Fall14.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-122" data-kind="historical" data-date="2014-10-10">
+    <div class="seminar-heading">
+      <time class="date" datetime="2014-10-10">October 10, 2014</time>
+      <span class="speaker">Stephen Hermes</span>
+      <span class="affiliation">(Wellesley College)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Maximal Green Sequences and Semi-Invariant Pictures</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Fall14.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-123" data-kind="historical" data-date="2014-10-24">
+    <div class="seminar-heading">
+      <time class="date" datetime="2014-10-24">October 24, 2014</time>
+      <span class="speaker">Evgeniy Zorin</span>
+      <span class="affiliation">(University of York)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Mahler numbers and Diophantine approximation</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Fall14.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-124" data-kind="historical" data-date="2014-10-31">
+    <div class="seminar-heading">
+      <time class="date" datetime="2014-10-31">October 31, 2014</time>
+      <span class="speaker">Jason Miller</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Random Surfaces and Quantum Loewner Evolution</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Fall14.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-125" data-kind="historical" data-date="2014-11-07">
+    <div class="seminar-heading">
+      <time class="date" datetime="2014-11-07">November 7, 2014</time>
+      <span class="speaker">Aaron Pixton</span>
+      <span class="affiliation">(Harvard)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> The cohomology ring of the moduli space of curves</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Fall14.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-126" data-kind="historical" data-date="2014-11-14">
+    <div class="seminar-heading">
+      <time class="date" datetime="2014-11-14">November 14, 2014</time>
+      <span class="speaker">Jingyue Chen</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Existence and rigidity of Calabi-Yau bundles</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Fall14.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-127" data-kind="historical" data-date="2014-11-21">
+    <div class="seminar-heading">
+      <time class="date" datetime="2014-11-21">November 21, 2014</time>
+      <span class="speaker">Vidya Venkateswaran</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Signature characters of certain representations of the quantum group <i>U</i><sub>q</sub>(<i>gl</i><sub>n</sub>).</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Fall14.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-128" data-kind="historical" data-date="2014-12-05">
+    <div class="seminar-heading">
+      <time class="date" datetime="2014-12-05">December 5, 2014</time>
+      <span class="speaker">Lei Yang</span>
+      <span class="affiliation">(Yale University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Equidistribution of expanding translates of curves in homogeneous spaces and its application to Diophantine approximation.</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Fall14.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="spring-2014" data-year="2014" data-semester="Spring">
+  <summary>
+    <h3 id="heading-spring-2014">
+      <span class="semester-label">Spring 2014</span>
+      <span class="semester-count">7 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-113" data-kind="historical" data-date="2014-01-30">
+    <div class="seminar-heading">
+      <time class="date" datetime="2014-01-30">January 30, 2014</time>
+      <span class="speaker">Kiyoshi Igusa</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> The category of noncrossing partitions.</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Spring14.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-114" data-kind="historical" data-date="2014-03-06">
+    <div class="seminar-heading">
+      <time class="date" datetime="2014-03-06">March 6, 2014</time>
+      <span class="speaker">Vadim Gorin</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> 2D stochastic systems and their asymptotics.</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Spring14.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-115" data-kind="historical" data-date="2014-03-13">
+    <div class="seminar-heading">
+      <time class="date" datetime="2014-03-13">March 13, 2014</time>
+      <span class="speaker">Ryan Kinser</span>
+      <span class="affiliation">(Northeastern University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Finiteness properties in linear algebra and representation theory</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Spring14.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-116" data-kind="historical" data-date="2014-03-20">
+    <div class="seminar-heading">
+      <time class="date" datetime="2014-03-20">March 20, 2014</time>
+      <span class="speaker">Han Li</span>
+      <span class="affiliation">(Yale)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Indefinite Integral Quadratic Forms Beyond Classical Reduction Theory</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Spring14.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-117" data-kind="historical" data-date="2014-03-27">
+    <div class="seminar-heading">
+      <time class="date" datetime="2014-03-27">March 27, 2014</time>
+      <span class="speaker">Rita Jimenez Rolland</span>
+      <span class="affiliation">(Northeastern University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Stability phenomena in cohomology</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Spring14.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-118" data-kind="historical" data-date="2014-04-03">
+    <div class="seminar-heading">
+      <time class="date" datetime="2014-04-03">April 3, 2014</time>
+      <span class="speaker">John Baldwin</span>
+      <span class="affiliation">(Boston College)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> From knots invariants to bordered Floer homology</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Spring14.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-119" data-kind="historical" data-date="2014-04-10">
+    <div class="seminar-heading">
+      <time class="date" datetime="2014-04-10">April 10, 2014</time>
+      <span class="speaker">John Bergdall</span>
+      <span class="affiliation">(Boston University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Examples of representations appearing in the completed cohomology of definite unitary group</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/everytopic-Spring14.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="fall-2013" data-year="2013" data-semester="Fall">
+  <summary>
+    <h3 id="heading-fall-2013">
+      <span class="semester-label">Fall 2013</span>
+      <span class="semester-count">7 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-106" data-kind="historical" data-date="2013-09-13">
+    <div class="seminar-heading">
+      <time class="date" datetime="2013-09-13">September 13, 2013</time>
+      <span class="speaker">Melody Chan</span>
+      <span class="affiliation">(Harvard)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Rotor routing and spanning trees of planar graphs</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/Fall-2013/Abstract-Chan.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~bernardi/everytopic/Fall-2013/everytopic-Fall13.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-107" data-kind="historical" data-date="2013-10-04">
+    <div class="seminar-heading">
+      <time class="date" datetime="2013-10-04">October 4, 2013</time>
+      <span class="speaker">Chelsea Walton</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Recent results in Noncommutative Invariant Theory</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/Fall-2013/Abstract-Walton.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~bernardi/everytopic/Fall-2013/everytopic-Fall13.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-108" data-kind="historical" data-date="2013-10-11">
+    <div class="seminar-heading">
+      <time class="date" datetime="2013-10-11">October 11, 2013</time>
+      <span class="speaker">Xiaojing Chen</span>
+      <span class="affiliation">(UCLA)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Hodge metric completion of the Teichmuller space of Calabi-Yau manifolds</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/Fall-2013/Abstract-Chen.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~bernardi/everytopic/Fall-2013/everytopic-Fall13.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-109" data-kind="historical" data-date="2013-10-25">
+    <div class="seminar-heading">
+      <time class="date" datetime="2013-10-25">October 25, 2013</time>
+      <span class="speaker">Gaetan Borot</span>
+      <span class="affiliation">(MIT / MPIM Bonn)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Counting surfaces and (abstractly) related problems</div>
+    <p class="status">Sources disagree on the date.</p>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/Fall-2013/Abstract-Borot.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~bernardi/everytopic/Fall-2013/everytopic-Fall13.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-110" data-kind="historical" data-date="2013-11-01">
+    <div class="seminar-heading">
+      <time class="date" datetime="2013-11-01">November 1, 2013</time>
+      <span class="speaker">Carl Wang Erickson</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Moduli Spaces of Representations</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/Fall-2013/Abstract-Carl.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~bernardi/everytopic/Fall-2013/everytopic-Fall13.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-111" data-kind="historical" data-date="2013-11-08">
+    <div class="seminar-heading">
+      <time class="date" datetime="2013-11-08">November 8, 2013</time>
+      <span class="speaker">Vidya Venkateswaran</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Branching rules and Hall-Littlewood polynomials</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/Fall-2013/Abstract-Venkateswaran.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~bernardi/everytopic/Fall-2013/everytopic-Fall13.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-112" data-kind="historical" data-date="2013-12-06">
+    <div class="seminar-heading">
+      <time class="date" datetime="2013-12-06">December 6, 2013</time>
+      <span class="speaker">Andrew Linshaw</span>
+      <span class="affiliation">(Denver University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> The Hilbert problem for vertex algebras</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~bernardi/everytopic/Fall-2013/Abstract-Linshaw.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~bernardi/everytopic/Fall-2013/everytopic-Fall13.html">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="spring-2013" data-year="2013" data-semester="Spring">
+  <summary>
+    <h3 id="heading-spring-2013">
+      <span class="semester-label">Spring 2013</span>
+      <span class="semester-count">8 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-098" data-kind="historical" data-date="2013-02-15">
+    <div class="seminar-heading">
+      <time class="date" datetime="2013-02-15">February 15, 2013</time>
+      <span class="speaker">Andrew Sutherland</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> The generalized Sato-Tate conjecture</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~joyner/everytopic/Sutherland.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~joyner/everytopic/everytopic.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-099" data-kind="historical" data-date="2013-03-01">
+    <div class="seminar-heading">
+      <time class="date" datetime="2013-03-01">March 1, 2013</time>
+      <span class="speaker">John Bergdall</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> p-adic families of modular forms</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~joyner/everytopic/Bergdall.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~joyner/everytopic/everytopic.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-100" data-kind="historical" data-date="2013-03-07">
+    <div class="seminar-heading">
+      <time class="date" datetime="2013-03-07">March 7, 2013</time>
+      <span class="speaker">David Simmons</span>
+      <span class="affiliation">(Ohio State)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Diophantine approximation in Banach spaces, with a digression about optimality of Dirichlet-type theorems</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~joyner/everytopic/Simmons.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">16:30 (local time) · Goldsmith 317.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~joyner/everytopic/everytopic.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-101" data-kind="historical" data-date="2013-03-15">
+    <div class="seminar-heading">
+      <time class="date" datetime="2013-03-15">March 15, 2013</time>
+      <span class="speaker">Paul Bourgade</span>
+      <span class="affiliation">(Harvard)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Universality for log-gases</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~joyner/everytopic/Bourgade.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~joyner/everytopic/everytopic.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-102" data-kind="historical" data-date="2013-04-05">
+    <div class="seminar-heading">
+      <time class="date" datetime="2013-04-05">April 5, 2013</time>
+      <span class="speaker">Abbey Bourdon</span>
+      <span class="affiliation">(Wesleyan)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Uniform Bound on Certain CM Cases of the Rasmussen/Tamagawa Conjecture</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~joyner/everytopic/Bourdon.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~joyner/everytopic/everytopic.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-103" data-kind="historical" data-date="2013-04-19">
+    <div class="seminar-heading">
+      <time class="date" datetime="2013-04-19">April 19, 2013</time>
+      <span class="speaker">Erez Nesharim</span>
+      <span class="affiliation">(Ben Gurion)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Absolute Schmidt&#x27;s Game With Regrets</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~joyner/everytopic/Nesharim.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~joyner/everytopic/everytopic.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-104" data-kind="historical" data-date="2013-04-26">
+    <div class="seminar-heading">
+      <time class="date" datetime="2013-04-26">April 26, 2013</time>
+      <span class="speaker">Junecue Suh</span>
+      <span class="affiliation">(Harvard)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Parity in the cohomology of algebraic varieties</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~joyner/everytopic/Suh.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~joyner/everytopic/everytopic.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-105" data-kind="historical" data-date="2013-05-03">
+    <div class="seminar-heading">
+      <time class="date" datetime="2013-05-03">May 3, 2013</time>
+      <span class="speaker">Joël Bellaïche</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Chebotarev&#x27;s density theorem and Littlewood&#x27;s complexity</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~joyner/everytopic/Bellaiche.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~joyner/everytopic/everytopic.html">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="fall-2012" data-year="2012" data-semester="Fall">
+  <summary>
+    <h3 id="heading-fall-2012">
+      <span class="semester-label">Fall 2012</span>
+      <span class="semester-count">9 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-089" data-kind="historical" data-date="2012-09-14">
+    <div class="seminar-heading">
+      <time class="date" datetime="2012-09-14">September 14, 2012</time>
+      <span class="speaker">Elijah Liflyand</span>
+      <span class="affiliation">(Bar Ilan University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Extending tests for convergence of number series</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~joyner/everytopic/LiflyandCauchyTalk.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~joyner/everytopic/everytopicFall12.html">Source</a> · <a href="https://people.brandeis.edu/~joyner/everytopic/Liflyand.pdf">Poster</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-090" data-kind="historical" data-date="2012-09-21">
+    <div class="seminar-heading">
+      <time class="date" datetime="2012-09-21">September 21, 2012</time>
+      <span class="speaker">Kiyoshi Igusa</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Cluster categories of type A and relationship to geometry of surfaces and string theory</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~joyner/everytopic/Igusa.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~joyner/everytopic/everytopicFall12.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-091" data-kind="historical" data-date="2012-10-05">
+    <div class="seminar-heading">
+      <time class="date" datetime="2012-10-05">October 5, 2012</time>
+      <span class="speaker">Ben Elias</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Geometric Satake equivalence for dummies (and quantum dummies)</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~joyner/everytopic/Elias.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~joyner/everytopic/everytopicFall12.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-092" data-kind="historical" data-date="2012-10-12">
+    <div class="seminar-heading">
+      <time class="date" datetime="2012-10-12">October 12, 2012</time>
+      <span class="speaker">Jennifer Balakrishnan</span>
+      <span class="affiliation">(Harvard)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Integral points on curves and p-adic integration</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~joyner/everytopic/Balakrishnan.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~joyner/everytopic/everytopicFall12.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-093" data-kind="historical" data-date="2012-10-19">
+    <div class="seminar-heading">
+      <time class="date" datetime="2012-10-19">October 19, 2012</time>
+      <span class="speaker">Barak Weiss</span>
+      <span class="affiliation">(Ben Gurion University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> On the Mordell-Gruber Spectrum</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~joyner/everytopic/Weiss.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~joyner/everytopic/everytopicFall12.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-094" data-kind="historical" data-date="2012-10-26">
+    <div class="seminar-heading">
+      <time class="date" datetime="2012-10-26">October 26, 2012</time>
+      <span class="speaker">Alessandro Tomasiello</span>
+      <span class="affiliation">(Universita Milano-Bicocca)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Generalized complex geometry and string theory</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~joyner/everytopic/Tomasiello.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~joyner/everytopic/everytopicFall12.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-095" data-kind="historical" data-date="2012-11-02">
+    <div class="seminar-heading">
+      <time class="date" datetime="2012-11-02">November 2, 2012</time>
+      <span class="speaker">Gabor Lippner</span>
+      <span class="affiliation">(Harvard)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Measurable graph theory and perfect matchings</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~joyner/everytopic/Lippner.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~joyner/everytopic/everytopicFall12.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-096" data-kind="historical" data-date="2012-11-16">
+    <div class="seminar-heading">
+      <time class="date" datetime="2012-11-16">November 16, 2012</time>
+      <span class="speaker">Shinobu Hosono</span>
+      <span class="affiliation">(Tokyo University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Calabi-Yau threefolds of Reye congruences -- projective geometry and mirror symmetry</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~joyner/everytopic/Hosono.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~joyner/everytopic/everytopicFall12.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-097" data-kind="historical" data-date="2012-11-30">
+    <div class="seminar-heading">
+      <time class="date" datetime="2012-11-30">November 30, 2012</time>
+      <span class="speaker">Si Li</span>
+      <span class="affiliation">(Boston University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Fock space and Renormalization</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~joyner/everytopic/Li.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~joyner/everytopic/everytopicFall12.html">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="spring-2012" data-year="2012" data-semester="Spring">
+  <summary>
+    <h3 id="heading-spring-2012">
+      <span class="semester-label">Spring 2012</span>
+      <span class="semester-count">8 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-081" data-kind="historical" data-date="2012-01-20">
+    <div class="seminar-heading">
+      <time class="date" datetime="2012-01-20">January 20, 2012</time>
+      <span class="speaker">Ben Weiss</span>
+      <span class="affiliation">(Technion)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Pairs of polynomials over the rationals taking infinitely many common values</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/weiss.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopic.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-082" data-kind="historical" data-date="2012-02-03">
+    <div class="seminar-heading">
+      <time class="date" datetime="2012-02-03">February 3, 2012</time>
+      <span class="speaker">Paul Monsky</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Polynomial identities between characteristic 2 theta series and some modular curves</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/monsky4.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopic.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-083" data-kind="historical" data-date="2012-02-10">
+    <div class="seminar-heading">
+      <time class="date" datetime="2012-02-10">February 10, 2012</time>
+      <span class="speaker">David Simmons</span>
+      <span class="affiliation">(University of North Texas)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Diophantine Approximation for Kleinian Groups</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/simmons.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopic.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-084" data-kind="historical" data-date="2012-02-17">
+    <div class="seminar-heading">
+      <time class="date" datetime="2012-02-17">February 17, 2012</time>
+      <span class="speaker">Joel Bellaiche</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> A universal Galois representation attached to modular forms modulo 2</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/bellaiche.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopic.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-085" data-kind="historical" data-date="2012-03-02">
+    <div class="seminar-heading">
+      <time class="date" datetime="2012-03-02">March 2, 2012</time>
+      <span class="speaker">Sheldon Joyner</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> The Grothendieck-Teichmuller group</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/joyner.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopic.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-086" data-kind="historical" data-date="2012-03-09">
+    <div class="seminar-heading">
+      <time class="date" datetime="2012-03-09">March 9, 2012</time>
+      <span class="speaker">Kyle Petersen</span>
+      <span class="affiliation">(DePaul University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> What is the gamma vector? (And what does it count?)</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/petersen.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopic.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-087" data-kind="historical" data-date="2012-03-30">
+    <div class="seminar-heading">
+      <time class="date" datetime="2012-03-30">March 30, 2012</time>
+      <span class="speaker">Sug Woo Shin</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Families of automorphic L-functions</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/shin.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopic.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-088" data-kind="historical" data-date="2012-04-20">
+    <div class="seminar-heading">
+      <time class="date" datetime="2012-04-20">April 20, 2012</time>
+      <span class="speaker">Josh Sussan</span>
+      <span class="affiliation">(Max Planck)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Braid group actions and Heisenberg categorification</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/sussan.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopic.html">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="fall-2011" data-year="2011" data-semester="Fall">
+  <summary>
+    <h3 id="heading-fall-2011">
+      <span class="semester-label">Fall 2011</span>
+      <span class="semester-count">6 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-075" data-kind="historical" data-date="2011-10-07">
+    <div class="seminar-heading">
+      <time class="date" datetime="2011-10-07">October 7, 2011</time>
+      <span class="speaker">Izhar Oppenheim</span>
+      <span class="affiliation">(Technion, Haifa)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Criteria for Kazhdan property (T) -- variations on Zuk&#x27;s criterion</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/oppenheim.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicFall11.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-076" data-kind="historical" data-date="2011-10-14">
+    <div class="seminar-heading">
+      <time class="date" datetime="2011-10-14">October 14, 2011</time>
+      <span class="speaker">Jared Weinstein</span>
+      <span class="affiliation">(Boston University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Maximal varieties over finite fields</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/weinstein.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00–15:20 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicFall11.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-077" data-kind="historical" data-date="2011-10-28">
+    <div class="seminar-heading">
+      <time class="date" datetime="2011-10-28">October 28, 2011</time>
+      <span class="speaker">Paul Bourgade</span>
+      <span class="affiliation">(Harvard University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Mesoscopic fluctuations for L-functions</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/bourgade.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicFall11.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-078" data-kind="historical" data-date="2011-11-11">
+    <div class="seminar-heading">
+      <time class="date" datetime="2011-11-11">November 11, 2011</time>
+      <span class="speaker">Dmitry Dolgopyat</span>
+      <span class="affiliation">(College Park)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Limit Theorems for toral translations.</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/dolgopyat.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicFall11.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-079" data-kind="historical" data-date="2011-12-02">
+    <div class="seminar-heading">
+      <time class="date" datetime="2011-12-02">December 2, 2011</time>
+      <span class="speaker">Matt Szczesny</span>
+      <span class="affiliation">(Boston University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> F_1-linear categories and their Hall algebras</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/szczesny.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicFall11.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-080" data-kind="historical" data-date="2011-12-09">
+    <div class="seminar-heading">
+      <time class="date" datetime="2011-12-09">December 9, 2011</time>
+      <span class="speaker">Alex Gorodnik</span>
+      <span class="affiliation">(Bristol)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Dynamics on nilmanifolds and Diophantine approximation</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/gorodnik.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicFall11.html">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="spring-2011" data-year="2011" data-semester="Spring">
+  <summary>
+    <h3 id="heading-spring-2011">
+      <span class="semester-label">Spring 2011</span>
+      <span class="semester-count">8 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-067" data-kind="historical" data-date="2011-01-21">
+    <div class="seminar-heading">
+      <time class="date" datetime="2011-01-21">January 21, 2011</time>
+      <span class="speaker">V.S. Prasad</span>
+      <span class="affiliation">(UMass Lowell)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Continuous Versions of the Homeomorphic Measures Theorem</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/prasad.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring11.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-068" data-kind="historical" data-date="2011-02-11">
+    <div class="seminar-heading">
+      <time class="date" datetime="2011-02-11">February 11, 2011</time>
+      <span class="speaker">Rory Smead</span>
+      <span class="affiliation">(Northeastern university, philosophy dept.)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Group-structure and equilibrium selection in games</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/smead.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring11.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-069" data-kind="historical" data-date="2011-02-24">
+    <div class="seminar-heading">
+      <time class="date" datetime="2011-02-24">February 24, 2011</time>
+      <span class="speaker">Robert Harron</span>
+      <span class="affiliation">(Boston University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Values of zeta-functions and the arithmetic they encode</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/harron.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring11.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-070" data-kind="historical" data-date="2011-03-04">
+    <div class="seminar-heading">
+      <time class="date" datetime="2011-03-04">March 4, 2011</time>
+      <span class="speaker">Marco Aldi</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> The Kodaira-Thurston manifold and T-duality</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/aldi.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring11.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-071" data-kind="historical" data-date="2011-03-18">
+    <div class="seminar-heading">
+      <time class="date" datetime="2011-03-18">March 18, 2011</time>
+      <span class="speaker">Tue Ly</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Determinacy and non-determinacy of Schmidt&#x27;s game and recent variants</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/ly.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring11.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-072" data-kind="historical" data-date="2011-04-22">
+    <div class="seminar-heading">
+      <time class="date" datetime="2011-04-22">April 22, 2011</time>
+      <span class="speaker">Nicolò Sibilla</span>
+      <span class="affiliation">(Northwestern University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Ribbon Graphs and Mirror symmetry in one dimension</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/sibilla.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring11.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-073" data-kind="historical" data-date="2011-04-29">
+    <div class="seminar-heading">
+      <time class="date" datetime="2011-04-29">April 29, 2011</time>
+      <span class="speaker">Keith Merrill</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Scaling Sequences as a Generalization of Entropy</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/merril.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40 (local time) · Goldsmith 226.</p>
+  </div>
+
+  <div class="seminar-entry" id="ET-074" data-kind="historical" data-date="2011-05-06">
+    <div class="seminar-heading">
+      <time class="date" datetime="2011-05-06">May 6, 2011</time>
+      <span class="speaker">Andrey Melnikov</span>
+      <span class="affiliation">(Drexel University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Scattering theory of Sturm-Liouville operator and a theory of vessels</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/mel.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring11.html">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="fall-2010" data-year="2010" data-semester="Fall">
+  <summary>
+    <h3 id="heading-fall-2010">
+      <span class="semester-label">Fall 2010</span>
+      <span class="semester-count">3 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-064" data-kind="historical" data-date="2010-10-04">
+    <div class="seminar-heading">
+      <time class="date" datetime="2010-10-04">October 4, 2010</time>
+      <span class="speaker">Mladen Dimitrov</span>
+      <span class="affiliation">(Paris VII (poster); University Paris 6 (schedule))</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Automorphic symbols and p-adic L-functions for GL(2) over totally real fields</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/dimitrov.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">15:30 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicFall10.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-065" data-kind="historical" data-date="2010-10-08">
+    <div class="seminar-heading">
+      <time class="date" datetime="2010-10-08">October 8, 2010</time>
+      <span class="speaker">Paul Monsky</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Disquisitiones Arithmeticae and online sequence A108345</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/monsky3.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicFall10.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-066" data-kind="historical" data-date="2010-11-19">
+    <div class="seminar-heading">
+      <time class="date" datetime="2010-11-19">November 19, 2010</time>
+      <span class="speaker">Ivan Horozov</span>
+      <span class="affiliation">(Tubingen)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Non commutative reciprocity laws on algebraic surfaces</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/horozov2.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicFall10.html">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="spring-2010" data-year="2010" data-semester="Spring">
+  <summary>
+    <h3 id="heading-spring-2010">
+      <span class="semester-label">Spring 2010</span>
+      <span class="semester-count">6 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-058" data-kind="historical" data-date="2010-03-05">
+    <div class="seminar-heading">
+      <time class="date" datetime="2010-03-05">March 5, 2010</time>
+      <span class="speaker">Paul Monsky</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> An experimental calculation of some Hilbert polynomials</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/monsky2.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring10.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-059" data-kind="historical" data-date="2010-03-26">
+    <div class="seminar-heading">
+      <time class="date" datetime="2010-03-26">March 26, 2010</time>
+      <span class="speaker">Jonathan Pottharst</span>
+      <span class="affiliation">(Boston College)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Iwasawa theory for abelian varieties</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/pottharst.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring10.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-060" data-kind="historical" data-date="2010-04-09">
+    <div class="seminar-heading">
+      <time class="date" datetime="2010-04-09">April 9, 2010</time>
+      <span class="speaker">Alex Kontorovich</span>
+      <span class="affiliation">(IAS)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Sieving in Groups</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/konto.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring10.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-061" data-kind="historical" data-date="2010-04-16">
+    <div class="seminar-heading">
+      <time class="date" datetime="2010-04-16">April 16, 2010</time>
+      <span class="speaker">Joe Rabinoff</span>
+      <span class="affiliation">(Harvard University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Canonical subgroups for abelian varieties</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/rabinoff.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring10.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-062" data-kind="historical" data-date="2010-04-23">
+    <div class="seminar-heading">
+      <time class="date" datetime="2010-04-23">April 23, 2010</time>
+      <span class="speaker">Toby Gee</span>
+      <span class="affiliation">(Harvard University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Title not recovered.</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> Not recovered.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring10.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-063" data-kind="historical" data-date="2010-04-30">
+    <div class="seminar-heading">
+      <time class="date" datetime="2010-04-30">April 30, 2010</time>
+      <span class="speaker">Avner Ash</span>
+      <span class="affiliation">(Boston College)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Reducible Galois representations and Hecke eigenclasses</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/ash.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring10.html">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="fall-2009" data-year="2009" data-semester="Fall">
+  <summary>
+    <h3 id="heading-fall-2009">
+      <span class="semester-label">Fall 2009</span>
+      <span class="semester-count">8 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-050" data-kind="historical" data-date="2009-09-11">
+    <div class="seminar-heading">
+      <time class="date" datetime="2009-09-11">September 11, 2009</time>
+      <span class="speaker">Paul Monsky</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Hilbert-Kunz multiplicities, rational, irrational algebraic(?), and transcendental(?)</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/monsky.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicFall09.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-051" data-kind="historical" data-date="2009-09-25">
+    <div class="seminar-heading">
+      <time class="date" datetime="2009-09-25">September 25, 2009</time>
+      <span class="speaker">Kristen Wickelgren</span>
+      <span class="affiliation">(Harvard University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Anabelian geometry and obstructions to homotopy sections</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/wickelgren.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicFall09.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-052" data-kind="historical" data-date="2009-10-02">
+    <div class="seminar-heading">
+      <time class="date" datetime="2009-10-02">October 2, 2009</time>
+      <span class="speaker">Ben Webster</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Categorification and topology</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/webster.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicFall09.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-053" data-kind="historical" data-date="2009-10-23">
+    <div class="seminar-heading">
+      <time class="date" datetime="2009-10-23">October 23, 2009</time>
+      <span class="speaker">Jon Chaika</span>
+      <span class="affiliation">(Rice University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Shrinking targets for interval exchange transformations and sequences</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/chaikaabstract.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicFall09.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-054" data-kind="historical" data-date="2009-11-06">
+    <div class="seminar-heading">
+      <time class="date" datetime="2009-11-06">November 6, 2009</time>
+      <span class="speaker">Scott Carnahan</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Genus zero functions in generalized moonshine.</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/carnahan.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicFall09.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-055" data-kind="historical" data-date="2009-11-12">
+    <div class="seminar-heading">
+      <time class="date" datetime="2009-11-12">November 12, 2009</time>
+      <span class="speaker">John Duncan</span>
+      <span class="affiliation">(Cambridge University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Rademacher sums, moonshine and black holes</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/duncan.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">15:30 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicFall09.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-056" data-kind="historical" data-date="2009-11-20">
+    <div class="seminar-heading">
+      <time class="date" datetime="2009-11-20">November 20, 2009</time>
+      <span class="speaker">Robert Pollack</span>
+      <span class="affiliation">(Boston University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Iwasawa theory for non-ordinary modular forms</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/pollack.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:10 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicFall09.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-057" data-kind="historical" data-date="2009-12-04">
+    <div class="seminar-heading">
+      <time class="date" datetime="2009-12-04">December 4, 2009</time>
+      <span class="speaker">Ryan Broderick</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Schmidt games and orbits of torus endomorphisms</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/broderick.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicFall09.html">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="spring-2009" data-year="2009" data-semester="Spring">
+  <summary>
+    <h3 id="heading-spring-2009">
+      <span class="semester-label">Spring 2009</span>
+      <span class="semester-count">8 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-042" data-kind="historical" data-date="2009-01-23">
+    <div class="seminar-heading">
+      <time class="date" datetime="2009-01-23">January 23, 2009</time>
+      <span class="speaker">Reinier Broker</span>
+      <span class="affiliation">(Microsoft Research)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Explicit complex multiplication theory</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/broker.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring09.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-043" data-kind="historical" data-date="2009-02-06">
+    <div class="seminar-heading">
+      <time class="date" datetime="2009-02-06">February 6, 2009</time>
+      <span class="speaker">Denis Auroux</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Special Lagrangian Fibrations and Mirror Symmetry</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> Not recovered.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring09.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-044" data-kind="historical" data-date="2009-02-13">
+    <div class="seminar-heading">
+      <time class="date" datetime="2009-02-13">February 13, 2009</time>
+      <span class="speaker">Ivan Horozov</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Gravity and Regulators of Number Fields</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/horozov.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring09.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-045" data-kind="historical" data-date="2009-02-27">
+    <div class="seminar-heading">
+      <time class="date" datetime="2009-02-27">February 27, 2009</time>
+      <span class="speaker">Uri Shapira</span>
+      <span class="affiliation">(Hebrew University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> A solution to an open problem of Cassels and Diophantine properties of cubic numbers</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/shapira.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring09.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-046" data-kind="historical" data-date="2009-03-06">
+    <div class="seminar-heading">
+      <time class="date" datetime="2009-03-06">March 6, 2009</time>
+      <span class="speaker">Lior Fishman</span>
+      <span class="affiliation">(Brandeis University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Diophantine Approximation, fractals, and Schmidt&#x27;s game</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/fishman.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring09.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-047" data-kind="historical" data-date="2009-03-13">
+    <div class="seminar-heading">
+      <time class="date" datetime="2009-03-13">March 13, 2009</time>
+      <span class="speaker">Alastair Hamilton</span>
+      <span class="affiliation">(IHES/Max Planck Institute)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Noncommutative Geometry and Compactifications of the moduli space of curves.</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/hamilton.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring09.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-048" data-kind="historical" data-date="2009-03-27">
+    <div class="seminar-heading">
+      <time class="date" datetime="2009-03-27">March 27, 2009</time>
+      <span class="speaker">Samik Basu</span>
+      <span class="affiliation">(Harvard University)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Some calculations in twisted R homology</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/basu.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring09.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-049" data-kind="historical" data-date="2009-04-03">
+    <div class="seminar-heading">
+      <time class="date" datetime="2009-04-03">April 3, 2009</time>
+      <span class="speaker">Dmitry Kleinbock</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> An &quot;almost all versus no&quot; dichotomy for orbits on homogeneous spaces</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~jbellaic/everytopic/kleinbock.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~jbellaic/everytopic/everytopicSpring09.html">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="fall-2008" data-year="2008" data-semester="Fall">
+  <summary>
+    <h3 id="heading-fall-2008">
+      <span class="semester-label">Fall 2008</span>
+      <span class="semester-count">9 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-033" data-kind="historical" data-date="2008-09-19">
+    <div class="seminar-heading">
+      <time class="date" datetime="2008-09-19">September 19, 2008</time>
+      <span class="speaker">Kiyoshi Igusa</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Catalan numbers and exceptional sequences</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_Kyioshi_fall2008.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-034" data-kind="historical" data-date="2008-09-26">
+    <div class="seminar-heading">
+      <time class="date" datetime="2008-09-26">September 26, 2008</time>
+      <span class="speaker">Barak Weiss</span>
+      <span class="affiliation">(Ben Gurion University, Israel)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Lattice surfaces, the Veech dichotomy and generalizations</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_weiss.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-035" data-kind="historical" data-date="2008-10-03">
+    <div class="seminar-heading">
+      <time class="date" datetime="2008-10-03">October 3, 2008</time>
+      <span class="speaker">Elijah Liflyand</span>
+      <span class="affiliation">(Bar-Ilan University, Israel)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> The Fourier transform of general monotone functions</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_Liflyand.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-036" data-kind="historical" data-date="2008-10-17">
+    <div class="seminar-heading">
+      <time class="date" datetime="2008-10-17">October 17, 2008</time>
+      <span class="speaker">Leo Goldmakher</span>
+      <span class="affiliation">(University of Michigan (Ann Arbor))</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Pretentious behavior in number theory</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_Leo_Goldmakher.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-037" data-kind="historical" data-date="2008-10-24">
+    <div class="seminar-heading">
+      <time class="date" datetime="2008-10-24">October 24, 2008</time>
+      <span class="speaker">Loring Tu</span>
+      <span class="affiliation">(Tufts)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Computing the Gysin homomorphism using fixed points</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_Tu.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-038" data-kind="historical" data-date="2008-10-31">
+    <div class="seminar-heading">
+      <time class="date" datetime="2008-10-31">October 31, 2008</time>
+      <span class="speaker">Carl-Friedrich Boedigheimer</span>
+      <span class="affiliation">(University of Bonn)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Harmonic functions, graphs, and tesselations of Riemann surfaces</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_Boedigheimer.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-039" data-kind="historical" data-date="2008-11-07">
+    <div class="seminar-heading">
+      <time class="date" datetime="2008-11-07">November 7, 2008</time>
+      <span class="speaker">Maciej (Matt) Szczesny</span>
+      <span class="affiliation">(BU)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Algebraic and categorical structures in the renormalization of perturbative quantum field theories</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_szczesny.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-040" data-kind="historical" data-date="2008-11-14">
+    <div class="seminar-heading">
+      <time class="date" datetime="2008-11-14">November 14, 2008</time>
+      <span class="speaker">Paul Gunnells</span>
+      <span class="affiliation">(UMass)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Weyl Group Multiple Dirichlet Series</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_gunnells.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-041" data-kind="historical" data-date="2008-11-21">
+    <div class="seminar-heading">
+      <time class="date" datetime="2008-11-21">November 21, 2008</time>
+      <span class="speaker">Matthew Headrick</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Ricci flow and some applications</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_headrick.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="spring-2008" data-year="2008" data-semester="Spring">
+  <summary>
+    <h3 id="heading-spring-2008">
+      <span class="semester-label">Spring 2008</span>
+      <span class="semester-count">8 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-025" data-kind="historical" data-date="2008-01-25">
+    <div class="seminar-heading">
+      <time class="date" datetime="2008-01-25">January 25, 2008</time>
+      <span class="speaker">Ivan Horozov</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Non-abelian Reciprocity Laws on a Riemann Surface</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_Horozov.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-026" data-kind="historical" data-date="2008-02-29">
+    <div class="seminar-heading">
+      <time class="date" datetime="2008-02-29">February 29, 2008</time>
+      <span class="speaker">Kiyoshi Igusa</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Iterated integrals and chain homotopy</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_Kyioshi_2008.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-027" data-kind="historical" data-date="2008-03-14">
+    <div class="seminar-heading">
+      <time class="date" datetime="2008-03-14">March 14, 2008</time>
+      <span class="speaker">Avner Ash</span>
+      <span class="affiliation">(Boston College)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Stable Group Homology and Hecke Operators</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_Ash.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-028" data-kind="historical" data-date="2008-04-04">
+    <div class="seminar-heading">
+      <time class="date" datetime="2008-04-04">April 4, 2008</time>
+      <span class="speaker">Yuuji Tanaka</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> The Donaldson-Thomas instantons on compact Kahler threefolds</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_tanaka.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-029" data-kind="historical" data-date="2008-04-11">
+    <div class="seminar-heading">
+      <time class="date" datetime="2008-04-11">April 11, 2008</time>
+      <span class="speaker">Glenn Stevens</span>
+      <span class="affiliation">(BU)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> The Milnor Ring and Special Values of <i>L</i>-functions</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_Stevens.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:30–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-030" data-kind="historical" data-date="2008-04-29">
+    <div class="seminar-heading">
+      <time class="date" datetime="2008-04-29">April 29, 2008</time>
+      <span class="speaker">Shoshana Abramovich</span>
+      <span class="affiliation">(University of Haifa)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> On Superquadracity</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/On_Superquadracity.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-031" data-kind="historical" data-date="2008-05-02">
+    <div class="seminar-heading">
+      <time class="date" datetime="2008-05-02">May 2, 2008</time>
+      <span class="speaker">Alvaro Pelayo</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Symplectic 4-Manifolds with Torus Actions</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_Pelayo.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">11:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-032" data-kind="historical" data-date="2008-05-05">
+    <div class="seminar-heading">
+      <time class="date" datetime="2008-05-05">May 5, 2008</time>
+      <span class="speaker">Junbo Wang</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Diophantine approximation of linear forms.</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_Wang.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:30 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="fall-2007" data-year="2007" data-semester="Fall">
+  <summary>
+    <h3 id="heading-fall-2007">
+      <span class="semester-label">Fall 2007</span>
+      <span class="semester-count">8 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-017" data-kind="historical" data-date="2007-09-18">
+    <div class="seminar-heading">
+      <time class="date" datetime="2007-09-18">September 18, 2007</time>
+      <span class="speaker">Alan Haynes</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Farey fractions and the Riemann Hypothesis</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_Haynes.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-018" data-kind="historical" data-date="2007-10-02">
+    <div class="seminar-heading">
+      <time class="date" datetime="2007-10-02">October 2, 2007</time>
+      <span class="speaker">Scott Carnahan</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Monstrous Lie algebras and generalized moonshine</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_Carnahan.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-019" data-kind="historical" data-date="2007-10-16">
+    <div class="seminar-heading">
+      <time class="date" datetime="2007-10-16">October 16, 2007</time>
+      <span class="speaker">Paul Monsky</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Two conjectures, one false and one dubious</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_Monsky.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-020" data-kind="historical" data-date="2007-10-23">
+    <div class="seminar-heading">
+      <time class="date" datetime="2007-10-23">October 23, 2007</time>
+      <span class="speaker">Bong Lian</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Fourier-Mukai numbers of K3 surfaces and class numbers</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_Lian.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-021" data-kind="historical" data-date="2007-10-30">
+    <div class="seminar-heading">
+      <time class="date" datetime="2007-10-30">October 30, 2007</time>
+      <span class="speaker">Matthias Schuett</span>
+      <span class="affiliation">(Harvard)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Singular K3 surfaces and complex multiplication</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_Schuett.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-022" data-kind="historical" data-date="2007-11-20">
+    <div class="seminar-heading">
+      <time class="date" datetime="2007-11-20">November 20, 2007</time>
+      <span class="speaker">Kiyoshi Igusa</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Introduction to matroids and oriented matroids</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_Igusa.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-023" data-kind="historical" data-date="2007-11-27">
+    <div class="seminar-heading">
+      <time class="date" datetime="2007-11-27">November 27, 2007</time>
+      <span class="speaker">David Whitehouse</span>
+      <span class="affiliation">(MIT)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Periods and central L-values</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~ihorozov/Seminar_Abstracts/abstract_Whitehouse.htm">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-024" data-kind="historical" data-date="2007-12-04">
+    <div class="seminar-heading">
+      <time class="date" datetime="2007-12-04">December 4, 2007</time>
+      <span class="speaker">Lior Silberman</span>
+      <span class="affiliation">(Harvard)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Spectra of random graphs and groups</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> Not recovered.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~ihorozov/Everytopic_Seminar.htm">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="spring-2007" data-year="2007" data-semester="Spring">
+  <summary>
+    <h3 id="heading-spring-2007">
+      <span class="semester-label">Spring 2007</span>
+      <span class="semester-count">8 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-009" data-kind="historical" data-date="2007-01-19">
+    <div class="seminar-heading">
+      <time class="date" datetime="2007-01-19">January 19, 2007</time>
+      <span class="speaker">Noam Elkies</span>
+      <span class="affiliation">(Harvard)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Ranks of elliptic curves and surfaces</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kleinboc/elkies.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~kleinboc/et.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-010" data-kind="historical" data-date="2007-01-26">
+    <div class="seminar-heading">
+      <time class="date" datetime="2007-01-26">January 26, 2007</time>
+      <span class="speaker">Jayadev Athreya</span>
+      <span class="affiliation">(Yale)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Ergodic theory of billiards and group actions on parameter spaces</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kleinboc/athreya.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~kleinboc/et.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-011" data-kind="historical" data-date="2007-02-02">
+    <div class="seminar-heading">
+      <time class="date" datetime="2007-02-02">February 2, 2007</time>
+      <span class="speaker">Joel Bellaiche</span>
+      <span class="affiliation">(Columbia)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Extensions of Galois representations</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kleinboc/bellaiche.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:45 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~kleinboc/et.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-012" data-kind="historical" data-date="2007-02-16">
+    <div class="seminar-heading">
+      <time class="date" datetime="2007-02-16">February 16, 2007</time>
+      <span class="speaker">Jeehoon Park</span>
+      <span class="affiliation">(BU)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> The rationality of elliptic units for real quadratic fields over genus fields</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kleinboc/park.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~kleinboc/et.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-013" data-kind="historical" data-date="2007-03-12">
+    <div class="seminar-heading">
+      <time class="date" datetime="2007-03-12">March 12, 2007</time>
+      <span class="speaker">Jim Tseng</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> The Shrinking Target Properties for Circle Rotations</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kleinboc/tseng.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">16:00 (local time) · Goldsmith 317.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~kleinboc/et.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-014" data-kind="historical" data-date="2007-03-30">
+    <div class="seminar-heading">
+      <time class="date" datetime="2007-03-30">March 30, 2007</time>
+      <span class="speaker">Makis Dousmanis</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Constructing 2-dimensional crystalline representations</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kleinboc/dousmanis.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~kleinboc/et.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-015" data-kind="historical" data-date="2007-04-20">
+    <div class="seminar-heading">
+      <time class="date" datetime="2007-04-20">April 20, 2007</time>
+      <span class="speaker">Dmitry Kleinbock</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Expanding translates of horospheres and their applications to number theory</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kleinboc/kleinbock.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~kleinboc/et.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-016" data-kind="historical" data-date="2007-04-30">
+    <div class="seminar-heading">
+      <time class="date" datetime="2007-04-30">April 30, 2007</time>
+      <span class="speaker">Alexander Charis</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> From modular forms to automorphic representations</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kleinboc/charis.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">16:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~kleinboc/et.html">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="semester archive-semester" id="fall-2006" data-year="2006" data-semester="Fall">
+  <summary>
+    <h3 id="heading-fall-2006">
+      <span class="semester-label">Fall 2006</span>
+      <span class="semester-count">8 talks</span>
+      <span class="semester-toggle" aria-hidden="true"><span class="when-closed">+</span><span class="when-open">−</span></span>
+    </h3>
+  </summary>
+  <div class="semester-content">
+
+  <div class="seminar-entry" id="ET-001" data-kind="historical" data-date="2006-09-15">
+    <div class="seminar-heading">
+      <time class="date" datetime="2006-09-15">September 15, 2006</time>
+      <span class="speaker">Ivan Horozov</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Multiple zeta functions, modular forms, and iteration over the adeles</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kleinboc/horozov.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~kleinboc/et.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-002" data-kind="historical" data-date="2006-09-29">
+    <div class="seminar-heading">
+      <time class="date" datetime="2006-09-29">September 29, 2006</time>
+      <span class="speaker">George McNinch</span>
+      <span class="affiliation">(Tufts)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Nilpotent orbits of a reductive group in positive characteristic</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kleinboc/mcninch.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">11:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~kleinboc/et.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-003" data-kind="historical" data-date="2006-10-06">
+    <div class="seminar-heading">
+      <time class="date" datetime="2006-10-06">October 6, 2006</time>
+      <span class="speaker">Ralph Kaufmann</span>
+      <span class="affiliation">(UConn)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Operads, Strings and Deligne&#x27;s conjecture</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kleinboc/kaufmann.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~kleinboc/et.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-004" data-kind="historical" data-date="2006-10-27">
+    <div class="seminar-heading">
+      <time class="date" datetime="2006-10-27">October 27, 2006</time>
+      <span class="speaker">Abhinav Kumar</span>
+      <span class="affiliation">(MIT/Microsoft)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Universally optimal distributions of points on spheres</div>
+    <p class="status">Sources disagree on the date.</p>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kleinboc/kumar.pdf">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~kleinboc/et.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-005" data-kind="historical" data-date="2006-11-03">
+    <div class="seminar-heading">
+      <time class="date" datetime="2006-11-03">November 3, 2006</time>
+      <span class="speaker">Lauren Williams</span>
+      <span class="affiliation">(Harvard)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Tableaux combinatorics for the asymmetric exclusion process</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kleinboc/williams.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~kleinboc/et.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-006" data-kind="historical" data-date="2006-11-10">
+    <div class="seminar-heading">
+      <time class="date" datetime="2006-11-10">November 10, 2006</time>
+      <span class="speaker">David Rohrlich</span>
+      <span class="affiliation">(BU)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Scarcity and abundance of trivial zeros in division towers</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kleinboc/rohrlich.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~kleinboc/et.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-007" data-kind="historical" data-date="2006-11-17">
+    <div class="seminar-heading">
+      <time class="date" datetime="2006-11-17">November 17, 2006</time>
+      <span class="speaker">Adam Piggott</span>
+      <span class="affiliation">(Tufts)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Relative train track representatives of free-group automorphisms</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kleinboc/piggott.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">14:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~kleinboc/et.html">Source</a></p>
+  </div>
+
+  <div class="seminar-entry" id="ET-008" data-kind="historical" data-date="2006-12-01">
+    <div class="seminar-heading">
+      <time class="date" datetime="2006-12-01">December 1, 2006</time>
+      <span class="speaker">Paul Monsky</span>
+      <span class="affiliation">(Brandeis)</span>
+    </div>
+    <div class="title"><span class="title-label">Title:</span> Hilbert-Kunz theory for a power series in s + 1 variables, particularly when s = 2</div>
+    <p class="abstract"><span class="abstract-label">Abstract.</span> <a href="https://people.brandeis.edu/~kleinboc/monsky.html">View abstract / seminar details</a>.</p>
+    <p class="meeting">13:40–15:00 (local time) · Goldsmith 226.</p>
+    <p class="source"><a href="https://people.brandeis.edu/~kleinboc/et.html">Source</a></p>
+  </div>
+  </div>
+</details>
+
+<details class="coverage-note">
+  <summary>Coverage and source notes</summary>
+  <p>There are 215 historical listings: 208 have a recovered title, and 209 have a complete calendar date.
+    Month-only and year-only dates retain their original precision. The Fall 2026 schedule contains seven named speakers
+    and five unassigned slots; none is included in the historical total. The January 29, 2024 cancellation is also excluded.</p>
+  <p>No individual historical records were recovered for Fall 2016, Spring 2017, Spring or Fall 2021,
+    Spring 2022, Spring 2023, Fall 2025, or Spring 2026. Several other semesters are only partially recovered.
+    These gaps do not imply that no seminars took place.</p>
+  <p>The earliest recovered semester is Fall 2006. Entries titled “Spring 2006” on one legacy page belong to Spring 2007;
+    a legacy Fall 2011 page also has an incorrect year in its heading.
+    Original title wording is preserved, including typographical errors.</p>
+  <p>Sources include organizers’ semester pages, individual talk posters, speakers’ public CVs,
+    university event listings, and Internet Archive snapshots. Each listing links to its own source.
+    A historical listing does not independently confirm that a talk took place.
+    Page structure follows <a href="https://github.com/axhou/axhou.github.io/blob/main/everytopic.html">the current Everytopic seminar page</a>.</p>
+</details>
+</section>
 
 </body>
 
