@@ -46,7 +46,7 @@ teaching/
 
 `notes/archive/` 保留以前上传、目前没有在网页中链接的笔记；`photos/old/` 保留旧照片。它们不是模板文件，不会因未使用而被自动删除，也没有重新加入主页导航。
 
-教学横幅保留完整原图，由 `teaching/index.html` 中的 `.teaching-banner` 控制显示比例与裁切位置：电脑和手机统一为 5:2，显示相同的图片内容，尺寸随页面宽度缩放。
+教学横幅保留完整原图，由 `teaching/index.html` 中的 `.teaching-banner` 控制显示比例与裁切位置：电脑为 3:1，手机为 5:2。
 
 ## 命名和链接
 
