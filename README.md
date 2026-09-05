@@ -11,6 +11,7 @@
 | 主页、个人简介、论文与导航 | `index.html` | `/` |
 | Everytopic Seminar | `everytopic.html`、`everytopic.png` | `/everytopic.html` |
 | 教学经历、评价与指导经历 | `teaching/index.html` | `/teaching/` |
+| 教学页照片横幅 | `teaching/banner.jpg` | — |
 | 2024 年线性代数课程 | `teaching/la2024/` | `/teaching/la2024/` |
 | 2026 年线性代数课程 | `teaching/la2026/` | `/teaching/la2026/` |
 | 2026 年 Guided Reading Program | `teaching/grp2026.html` | `/teaching/grp2026.html` |
@@ -44,6 +45,8 @@ teaching/
 ```
 
 `notes/archive/` 保留以前上传、目前没有在网页中链接的笔记；`photos/old/` 保留旧照片。它们不是模板文件，不会因未使用而被自动删除，也没有重新加入主页导航。
+
+教学横幅保留完整原图，由 `teaching/index.html` 中的 `.teaching-banner` 控制显示比例与裁切位置：电脑为 3:1，手机为 5:2。
 
 ## 命名和链接
 
