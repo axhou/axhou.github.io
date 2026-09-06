@@ -1,4 +1,4 @@
-// Typeset a semester when it opens, so formulas use its visible width.
+// Typeset titles and abstracts when their own disclosure becomes visible.
 window.MathJax = {
   tex: {
     inlineMath: [['\\(', '\\)']],
@@ -11,24 +11,36 @@ window.MathJax = {
     pageReady() {
       return MathJax.startup.defaultPageReady().then(() => {
         let queue = Promise.resolve();
-        const render = semester => {
-          if (!semester.open || semester.dataset.mathReady) return;
-          semester.dataset.mathReady = 'pending';
+        const render = (element, targets, isVisible) => {
+          if (!isVisible() || element.dataset.mathReady) return;
+          element.dataset.mathReady = 'pending';
           queue = queue.then(async () => {
-            if (!semester.open) {
-              delete semester.dataset.mathReady;
+            if (!isVisible()) {
+              delete element.dataset.mathReady;
               return;
             }
-            await MathJax.typesetPromise([semester]);
-            semester.dataset.mathReady = 'true';
+            await MathJax.typesetPromise(targets);
+            element.dataset.mathReady = 'true';
           }).catch(error => {
-            delete semester.dataset.mathReady;
+            delete element.dataset.mathReady;
             console.error('Unable to typeset seminar formulas:', error);
           });
         };
         document.querySelectorAll('.archive-semester').forEach(semester => {
-          semester.addEventListener('toggle', () => render(semester));
-          render(semester);
+          const abstracts = [...semester.querySelectorAll('.abstract-details')];
+          const renderAbstract = details => render(
+            details, [details], () => semester.open && details.open
+          );
+          const renderSemester = () => {
+            if (!semester.open) return;
+            render(semester, [...semester.querySelectorAll('.seminar-heading, .title')], () => semester.open);
+            abstracts.forEach(renderAbstract);
+          };
+          abstracts.forEach(details => {
+            details.addEventListener('toggle', () => renderAbstract(details));
+          });
+          semester.addEventListener('toggle', renderSemester);
+          renderSemester();
         });
       });
     }
