@@ -35,41 +35,32 @@
     .mentoring-list li {
   margin-bottom: 1em;
 }
-.table-wrapper {
-  overflow-x: auto;
-  margin-top: 0.8em;
-  margin-bottom: 1.2em;
+.ratings {
+  max-width: 32em;
+  margin: 0.8em 0 1.2em;
 }
 
-.table-wrapper table {
+.ratings > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 1.25em;
+  align-items: baseline;
+  margin-bottom: 0.55em;
+}
+
+.ratings dt {
+  display: grid;
+  grid-template-columns: 7em minmax(0, 1fr);
+  column-gap: 1em;
+}
+
+.rating-course { color: #444; }
+
+.ratings dd {
   margin: 0;
-}
-
-.evaluation-table {
-  width: 100%;
-  max-width: 900px;
-  border-collapse: collapse;
-}
-
-.evaluation-table th,
-.evaluation-table td {
-  border: 1px solid #999;
-  padding: 7px 10px;
-  text-align: left;
-  vertical-align: top;
-}
-
-.evaluation-table th {
-  font-weight: bold;
-}
-
-.evaluation-table .number {
-  text-align: center;
   white-space: nowrap;
-}
-
-.evaluation-table tfoot td {
-  border-top: 2px solid #666;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
 }
 
 .note {
@@ -106,29 +97,6 @@ h3 {
     ul {
       margin: 0 0 1.2em 1.2em;
       padding-left: 1em;
-    }
-
-    table {
-      border-collapse: collapse;
-      margin-top: 0.8em;
-      margin-bottom: 1.2em;
-      min-width: 650px;
-    }
-
-    th,
-    td {
-      border: 1px solid #999;
-      padding: 6px 10px;
-      text-align: left;
-    }
-
-    th {
-      font-weight: bold;
-    }
-
-    td.rating,
-    th.rating {
-      text-align: center;
     }
 
     blockquote {
@@ -178,6 +146,10 @@ blockquote footer {
       .teaching-banner {
         aspect-ratio: 5 / 2;
       }
+
+      .ratings dt { display: block; }
+      .rating-course { display: block; }
+      .ratings > div { margin-bottom: 0.8em; }
     }
   </style>
 
@@ -259,53 +231,32 @@ blockquote footer {
   course evaluations. Ratings are on a 5-point scale.
 </p>
 
-<div class="table-wrapper" role="region" aria-label="Student evaluation ratings" tabindex="0">
-<table>
-
-  <tr>
-    <th>Term</th>
-    <th>Course</th>
-    <th class="rating">Overall Instructor Rating</th>
-  </tr>
-
-  <tr>
-    <td>Summer 2026</td>
-    <td>Math 15A - Linear Algebra</td>
-    <td class="rating"><strong>4.89 / 5.00</strong></td>
-  </tr>
-
-  <tr>
-    <td>Spring 2025</td>
-    <td>Math 10B - Techniques of Calculus (b)</td>
-    <td class="rating">4.51 / 5.00</td>
-  </tr>
-
-  <tr>
-    <td>Fall 2024</td>
-    <td>Math 10B - Techniques of Calculus (b)</td>
-    <td class="rating"><strong>4.83 / 5.00</strong></td>
-  </tr>
-
-  <tr>
-    <td>Summer 2024</td>
-    <td>Math 15A - Linear Algebra</td>
-    <td class="rating">4.41 / 5.00</td>
-  </tr>
-
-  <tr>
-    <td>Spring 2024</td>
-    <td>Math 10B - Techniques of Calculus (b)</td>
-    <td class="rating">4.50 / 5.00</td>
-  </tr>
-
-  <tr>
-    <td>Fall 2023</td>
-    <td>Math 10B - Techniques of Calculus (b)</td>
-    <td class="rating">4.66 / 5.00</td>
-  </tr>
-
-</table>
-</div>
+<dl class="ratings" aria-label="Overall instructor ratings">
+  <div>
+    <dt><span>Summer 2026</span> <span class="rating-course">Math 15A - Linear Algebra</span></dt>
+    <dd><strong>4.89 / 5.00</strong></dd>
+  </div>
+  <div>
+    <dt><span>Spring 2025</span> <span class="rating-course">Math 10B - Techniques of Calculus (b)</span></dt>
+    <dd>4.51 / 5.00</dd>
+  </div>
+  <div>
+    <dt><span>Fall 2024</span> <span class="rating-course">Math 10B - Techniques of Calculus (b)</span></dt>
+    <dd><strong>4.83 / 5.00</strong></dd>
+  </div>
+  <div>
+    <dt><span>Summer 2024</span> <span class="rating-course">Math 15A - Linear Algebra</span></dt>
+    <dd>4.41 / 5.00</dd>
+  </div>
+  <div>
+    <dt><span>Spring 2024</span> <span class="rating-course">Math 10B - Techniques of Calculus (b)</span></dt>
+    <dd>4.50 / 5.00</dd>
+  </div>
+  <div>
+    <dt><span>Fall 2023</span> <span class="rating-course">Math 10B - Techniques of Calculus (b)</span></dt>
+    <dd>4.66 / 5.00</dd>
+  </div>
+</dl>
 
 <p class="note">
   Ratings are taken from official Brandeis University course-evaluation reports.
