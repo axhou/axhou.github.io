@@ -42,6 +42,14 @@ window.MathJax = {
           semester.addEventListener('toggle', renderSemester);
           renderSemester();
         });
+        document.querySelectorAll('body > .seminar-entry').forEach(entry => {
+          render(entry, [...entry.querySelectorAll('.seminar-heading, .title')], () => true);
+          const details = entry.querySelector('.abstract-details');
+          if (!details) return;
+          const renderAbstract = () => render(details, [details], () => details.open);
+          details.addEventListener('toggle', renderAbstract);
+          renderAbstract();
+        });
       });
     }
   }
