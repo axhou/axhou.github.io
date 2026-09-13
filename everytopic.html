@@ -318,15 +318,40 @@
 
     <div class="title">
       <span class="title-label">Title:</span>
-      The set of counterexamples to the uniform Littlewood’s conjecture is winning
+      Counterexamples to the uniform Littlewood conjecture form a winning set
     </div>
 
     <details class="abstract-details">
       <summary>Abstract <span class="abstract-toggle" aria-hidden="true"></span></summary>
-      <p class="abstract">
+      <div class="abstract">
         <span class="abstract-label">Abstract.</span>
-        To be announced.
-      </p>
+        <p>
+          Let \(\langle \cdot \rangle\) denote the distance to the nearest integer: \(\langle x \rangle = \min\limits_{q \in \mathbb{Z}} |x - q|\).
+          The famous Littlewood's conjecture asserts that every pair \((x,y) \in \mathbb{R}^2\) satisfies
+          \[
+          \liminf_{q\to\infty}q\langle qx\rangle\langle qy\rangle=0,
+          \]
+          which means that no pairs are multiplicatively badly approximable.
+        </p>
+        <p>
+          Unfortunately, we haven't proved the conjecture. Instead, we worked on its uniform analogue and were able to prove that the set of its counterexamples is large.
+        </p>
+        <p>
+          The uniform analogue of the Littlewood's conjecture (ULC) was proposed by Bandi, Fregoli, and Kleinbock: they asked whether every pair satisfies
+          \[
+          \limsup_{Q\to\infty}Q\min_{1\le q\le Q}
+          \langle qx\rangle\langle qy\rangle=0,
+          \]
+          and proved it for almost every pair. Later, the counterexamples were found by different authors.
+        </p>
+        <p>
+          In joint work with Chengyang Wu and Bohan Yang, we prove that the counterexamples to ULC are <em>hyperplane absolute winning</em>, and hence have full Hausdorff dimension two.
+        </p>
+        <p>
+          In fact, we can prove a stronger result and replace \(\limsup\) by a \(\liminf\) along an arbitrary subsequence of \(Q\) which grows fast enough.
+          Separately, we prove absolute winning on regular \(C^2\) planar curves and certain lines.
+        </p>
+      </div>
     </details>
   </div>
 
